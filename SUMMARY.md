@@ -4,7 +4,7 @@
        
 
 * Conversion templates : Text to CML
-   * [ADF log](out/md/cml/adf_log.md)
+   * ADF log
       * [nmr](out/md/cml/adf_log/nmr-d3e19.md)
          * [program.header](out/md/cml/adf_log/program.header-d3e26.md)
          * [nuclear.coordinates](out/md/cml/adf_log/nuclear.coordinates-d3e145.md)
@@ -51,7 +51,7 @@
          * [quild.iteration.coord](out/md/cml/adf_log/quild.iteration.coord-d3e4441.md)
       * [process.info](out/md/cml/adf_log/process.info-d3e5698.md)
       * [input.file](out/md/cml/adf_log/input.file-d3e5751.md)
-   * [Gaussian log](out/md/cml/gaussian_log.md)
+   * Gaussian log
       * [entering](out/md/cml/gaussian_log/entering-d3e5834.md)
       * [l1](out/md/cml/gaussian_log/l1-d3e5869.md)
          * [l1.legal](out/md/cml/gaussian_log/l1.legal-d3e5876.md)
@@ -181,7 +181,7 @@
       * [jobcpu](out/md/cml/gaussian_log/jobcpu-d3e17316.md)
       * [link.enter](out/md/cml/gaussian_log/link.enter-d3e17363.md)
       * [leave](out/md/cml/gaussian_log/leave-d3e17372.md)
-   * [Orca log](out/md/cml/orca_log.md)
+   * Orca log
       * [cosmo](out/md/cml/orca_log/cosmo-d3e18623.md)
       * [cpcm](out/md/cml/orca_log/cpcm-d3e18806.md)
       * [geometry](out/md/cml/orca_log/geometry-d3e18989.md)
@@ -227,7 +227,7 @@
       * [optsetup](out/md/cml/orca_log/optsetup-d3e22377.md)
       * [header](out/md/cml/orca_log/header-d3e17420.md)
       * [input](out/md/cml/orca_log/input-d3e17454.md)
-   * [Turbomole log](out/md/cml/turbomole_log.md)
+   * Turbomole log
       * [program](out/md/cml/turbomole_log/program-d3e22489.md)
       * [module](out/md/cml/turbomole_log/module-d3e22618.md)
          * [title](out/md/cml/turbomole_log/title-d3e22631.md)
@@ -273,7 +273,7 @@
          * [coord](out/md/cml/turbomole_log/coord-d3e34408.md)
          * [restrictions](out/md/cml/turbomole_log/restrictions-d3e34757.md)
       * [turbomole.energy](out/md/cml/turbomole_log/turbomole.energy-d3e37358.md)
-   * [VASP outcar](out/md/cml/vasp_outcar.md)
+   * VASP outcar
       * [generator](out/md/cml/vasp_outcar/generator-d3e25529.md)
       * [incar](out/md/cml/vasp_outcar/incar-d3e25580.md)
          * [dimension](out/md/cml/vasp_outcar/dimension-d3e25587.md)
@@ -302,7 +302,7 @@
       * [vasp.incar](out/md/cml/vasp_outcar/vasp.incar-d3e37403.md)
       * [vasp.kpoints](out/md/cml/vasp_outcar/vasp.kpoints-d3e37487.md)
       * [vasp.doscar](out/md/cml/vasp_outcar/vasp.doscar-d3e37529.md)
-   * [MOLCAS log](out/md/cml/molcas_log.md)
+   * MOLCAS log
       * [module.header](out/md/cml/molcas_log/module.header-d3e27204.md)
       * [basisset](out/md/cml/molcas_log/basisset-d3e27264.md)
       * [coordinates](out/md/cml/molcas_log/coordinates-d3e27544.md)
@@ -337,7 +337,7 @@
       * [atom.expansion](out/md/cml/molcas_log/atom.expansion-d3e31806.md)
       * [dynamic.loprop](out/md/cml/molcas_log/dynamic.loprop-d3e31932.md)
       * [molcas.input](out/md/cml/molcas_log/molcas.input-d3e37700.md)
-   * [QuantumEspresso log](out/md/cml/quantumespresso_log.md)
+   * QuantumEspresso log
       * [header](out/md/cml/quantumespresso_log/header-d3e32095.md)
       * [parameters](out/md/cml/quantumespresso_log/parameters-d3e32142.md)
       * [lattice](out/md/cml/quantumespresso_log/lattice-d3e32322.md)
