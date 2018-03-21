@@ -9,6 +9,8 @@ This WebHelp document can be used in a different way depending on your purposes.
 
     Once we know that our format is captured, the fastest approach in discovering if such section is processed is searching few words from a line of text of such section in WebHelp Search field (on search tab).
 
+    ![](/imgs/searchTab.png)
+
     We must avoid capturing numerical values because our search will fail to find matches, just use alphabetic and symbol characters, p.ex.: *NUCLEAR COORDINATES (ANGSTROMS):*, *Rotational constants (GHZ)*, *Spin components of T(2) and E(2)* , *The second derivative* , etc.
 
     Once we've searched such value, a list of matches ordered by relevance will appear:
@@ -20,6 +22,8 @@ This WebHelp document can be used in a different way depending on your purposes.
         Template name, physical file name, capture start/end regular expressions among other information. There should be also some examples of common inputs and it's converted output as formatted CML, it will help us in understanding which fields are generated and not.
 
         On top of this template definition there must be a resume table that defines it's implementation level :
+
+        ![](/imgs/implementationLevel.png)
 
         This value will vary depending on current template implementation status:
 
