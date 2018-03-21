@@ -355,15 +355,9 @@
       * [qespresso.input](out/md/cml/quantumespresso_log/qespresso.input-d3e37965.md)
 
 * HTML report content
-        
   * [ADF log](out/md/html/adf_log.md)
-        
   * [Gaussian log](out/md/html/gaussian_log.md)
-        
   * [Orca log](out/md/html/orca_log.md)
-        
   * [Turbomole log](out/md/html/turbomole_log.md)
-        
   * [VASP outcar](out/md/html/vasp_outcar.md)
-        
   * [MOLCAS log](out/md/html/molcas_log.md)

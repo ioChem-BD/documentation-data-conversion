@@ -33,10 +33,11 @@ This WebHelp document can be used in a different way depending on your purposes.
 
         -   ![](/imgs/None.png)No field is captured / displayed
 
-    -   If there are no matches for our section, you can try to find it directly from *Legacy to CML* section inside content tab. If even then you don't find it, you must contact our development team to code such data extraction template and it's visualized fields.
+    -   If there are no matches for our section, you can try to find it directly from *Conversion templates : Text to CML* section inside content tab. If even then you don't find it, you must contact our development team to code such data extraction template and it's visualized fields.
 
 -   "I want to view the logic under some fields assignement inside HTML5 templates: charge, multiplicity, calculation type and so on"
 
-    The straight way to access such information is to refer calculation HTML5 conversion related section. To do so we'll access content tab and then navigate to "CML 2 HTML5" entry, then we must choose selected format and later navigate to *Page components detail* and then to *Header* section.
+    The straight way to access such information is to refer calculation HTML5 conversion related section. To do so we'll access content tab and then navigate to *HTML report content* entry, then we must choose selected format and later navigate to *Page components detail* and then to *Header*
+    section.
 
 
