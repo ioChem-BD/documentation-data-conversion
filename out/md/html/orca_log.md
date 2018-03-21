@@ -6,7 +6,7 @@
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
 | Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://argo.urv.es:8080/jspui/handle/123456789/6                                                                     |
-| Program                                                                                 | [header template](/out/md/cml/orca_log/header-d3e17420)                                                    | Orca 3.0.1                                                                                                            |
+| Program                                                                                 | [header template](/out/md/cml/orca_log/header-d3e17420.md)                                                    | Orca 3.0.1                                                                                                            |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | H 2 Fe 1 O 1                                                                                                          |
 | Calculation type                                                                        | Custom logic                                                                           | Geometry optimization Minimum                                                                                         |
@@ -38,9 +38,9 @@ This section captures molecule additional information not captured on previous s
 
 | Field                                                                                             | Source                                                                                            | Sample value                                                                                      |
 |----|----|----|
-| Multiplicity                                                                                      | Readed from Mul parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588)     | 1                                                                                                 |
+| Multiplicity                                                                                      | Readed from Mul parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588.md)     | 1                                                                                                 |
 |                                                                                                   | module                                                                                            |                                                                                                   |
-| Charge                                                                                            | Readed from Charge parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588)  | 0                                                                                                 |
+| Charge                                                                                            | Readed from Charge parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588.md)  | 0                                                                                                 |
 |                                                                                                   | module                                                                                            |                                                                                                   |
 
 ######Molecular Info - Main fields
@@ -49,33 +49,33 @@ This section captures molecule additional information not captured on previous s
 
 ### Bond distances
 
-Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='input'&gt;](/out/md/cml/orca_log/input-d3e17454)
+Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='input'&gt;](/out/md/cml/orca_log/input-d3e17454.md)
 
-Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='geometry'&gt;](/out/md/cml/orca_log/geometry-d3e18989)
+Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='geometry'&gt;](/out/md/cml/orca_log/geometry-d3e18989.md)
 
 ![](/imgs/ORCA_bonddistances.png)
 
 ### Solvation input
 
-Data source: [&lt;module cmlx:templateRef='cosmo'&gt;](/out/md/cml/orca_log/cosmo-d3e18623)
+Data source: [&lt;module cmlx:templateRef='cosmo'&gt;](/out/md/cml/orca_log/cosmo-d3e18623.md)
 
 ![](/imgs/ORCA_solvationinput.png)
 
 ### Restrictions in the Geometry Optimization
 
-Data source: [&lt;module cmlx:templateRef='optsetup'&gt;](/out/md/cml/orca_log/optsetup-d3e22377)
+Data source: [&lt;module cmlx:templateRef='optsetup'&gt;](/out/md/cml/orca_log/optsetup-d3e22377.md)
 
 ![](/imgs/ORCA_restrictions.png)
 
 ## Total SCF energy
 
-Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e20439)
+Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e20439.md)
 
-Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e21233)
+Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e21233.md)
 
-Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e21351)
+Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e21351.md)
 
-Data source: [&lt;module cmlx:templateRef='d3'&gt;](/out/md/cml/orca_log/d3)
+Data source: [&lt;module cmlx:templateRef='d3'&gt;](/out/md/cml/orca_log/d3.md)
 
 ![](/imgs/ORCA_module_scfenergy.png)
 
@@ -83,9 +83,9 @@ Data source: [&lt;module cmlx:templateRef='d3'&gt;](/out/md/cml/orca_log/d3)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/orca_log/vibrations-d3e19272)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/orca_log/vibrations-d3e19272.md)
 
-Data source: [&lt;module cmlx:templateRef='irspectrum'&gt;](/out/md/cml/orca_log/irspectrum-d3e19573)
+Data source: [&lt;module cmlx:templateRef='irspectrum'&gt;](/out/md/cml/orca_log/irspectrum-d3e19573.md)
 
 ![](/imgs/ORCA_module_irspectrum.png)
 
@@ -93,9 +93,9 @@ Data source: [&lt;module cmlx:templateRef='irspectrum'&gt;](/out/md/cml/orca_log
 
 ## Population analysis
 
-Data source [&lt;module cmlx:templateRef='loewdin'&gt;](/out/md/cml/orca_log/loewdin-d3e19850)
+Data source [&lt;module cmlx:templateRef='loewdin'&gt;](/out/md/cml/orca_log/loewdin-d3e19850.md)
 
-Data source [&lt;module cmlx:templateRef='mullikenpopulation'&gt;](/out/md/cml/orca_log/mullikenpopulation-d3e19753)
+Data source [&lt;module cmlx:templateRef='mullikenpopulation'&gt;](/out/md/cml/orca_log/mullikenpopulation-d3e19753.md)
 
 ![](/imgs/ORCA_module_popanal1.png)
 
@@ -103,21 +103,21 @@ Data source [&lt;module cmlx:templateRef='mullikenpopulation'&gt;](/out/md/cml/o
 
 ## Electrostatic moments
 
-Data source: Charge parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588)
+Data source: Charge parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e20588.md)
 
-Data source: [&lt;module cmlx:templateRef='electricproperties'&gt;](/out/md/cml/orca_log/electricproperties-d3e20095)
+Data source: [&lt;module cmlx:templateRef='electricproperties'&gt;](/out/md/cml/orca_log/electricproperties-d3e20095.md)
 
 ![](/imgs/ORCA_module_electrostatic.png)
 
 ## Broken symmetry magnetic coupling analysis
 
-Data source: [&lt;module cmlx:templateRef="brokensym"&gt;](/out/md/cml/orca_log/brokensym-d3e19169)
+Data source: [&lt;module cmlx:templateRef="brokensym"&gt;](/out/md/cml/orca_log/brokensym-d3e19169.md)
 
 ![](/imgs/ORCA_module_brokensymm.png)
 
 ## Frontier orbitals
 
-Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e19659)
+Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e19659.md)
 
 ![](/imgs/ORCA_module_frontierorb1.png)
 
@@ -125,7 +125,7 @@ Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orc
 
 ## Natural orbitals
 
-Data source: [&lt;module cmlx:templateRef='natural'&gt;](/out/md/cml/orca_log/natural-d3e20223)
+Data source: [&lt;module cmlx:templateRef='natural'&gt;](/out/md/cml/orca_log/natural-d3e20223.md)
 
 ![](/imgs/)
 
@@ -133,7 +133,7 @@ Data source: [&lt;module cmlx:templateRef='natural'&gt;](/out/md/cml/orca_log/na
 
 Data source:
 
--   [&lt;module cmlx:templateRef="nmr"&gt;](/out/md/cml/orca_log/nmr-d3e21461)
+-   [&lt;module cmlx:templateRef="nmr"&gt;](/out/md/cml/orca_log/nmr-d3e21461.md)
 
 ![](/imgs/ORCA_module_nmr.png)
 
@@ -141,9 +141,9 @@ Data source:
 
 This section displays an interative chart to visualize root energies and an additional table with most relevant dominant contributions to each root
 
-Data source: [&lt;module cmlx:templateRef='tddft'&gt;](/out/md/cml/orca_log/tddft-d3e21579)
+Data source: [&lt;module cmlx:templateRef='tddft'&gt;](/out/md/cml/orca_log/tddft-d3e21579.md)
 
-Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e19659)
+Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e19659.md)
 
 ![](/imgs/ORCA_module_tddft1.png)
 
@@ -151,23 +151,23 @@ Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orc
 
 ## g-matrix and ZFS
 
-Data source: [&lt;module cmlx:templateRef='eprnmr'&gt;](/out/md/cml/orca_log/eprnmr-d3e21993)
+Data source: [&lt;module cmlx:templateRef='eprnmr'&gt;](/out/md/cml/orca_log/eprnmr-d3e21993.md)
 
 ![](/imgs/ORCA_module_eprnmr.png)
 
 ## Final results
 
-Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e20439)
+Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e20439.md)
 
-Data source: [&lt;module cmlx:templateRef='spincontamination'&gt;](/out/md/cml/orca_log/spincontamination-d3e21190)
+Data source: [&lt;module cmlx:templateRef='spincontamination'&gt;](/out/md/cml/orca_log/spincontamination-d3e21190.md)
 
-Data source: [&lt;module cmlx:templateRef='innerenergy'&gt;](/out/md/cml/orca_log/innerenergy-d3e19426)
+Data source: [&lt;module cmlx:templateRef='innerenergy'&gt;](/out/md/cml/orca_log/innerenergy-d3e19426.md)
 
-Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e21233)
+Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e21233.md)
 
-Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e21351)
+Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e21351.md)
 
-Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd3-d3e21961)
+Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd3-d3e21961.md)
 
 ![](/imgs/ORCA_module_finalresults1.png)
 

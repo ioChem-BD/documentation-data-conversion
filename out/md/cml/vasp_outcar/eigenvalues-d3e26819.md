@@ -39,10 +39,10 @@
 
 **Comment.**
 
--   [spin](/out/md/cml/vasp_outcar/spin-d3e26826)
+-   [spin](/out/md/cml/vasp_outcar/spin-d3e26826.md)
 
 <!-- -->
 
--   [nospin](/out/md/cml/vasp_outcar/nospin-d3e26888)
+-   [nospin](/out/md/cml/vasp_outcar/nospin-d3e26888.md)
 
 

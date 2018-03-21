@@ -6,13 +6,13 @@
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
 | Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://argo.urv.es:8080/jspui/handle/123456789/6                                                                     |
-| Program                                                                                 | [&lt;scalar dictRef="cc:program"&gt;](/out/md/cml/vasp_outcar/generator-d3e25529) template                    | VASP 5.3.2                                                                                                            |
+| Program                                                                                 | [&lt;scalar dictRef="cc:program"&gt;](/out/md/cml/vasp_outcar/generator-d3e25529.md) template                    | VASP 5.3.2                                                                                                            |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | C 1 H 4 Mo 30 O 61                                                                                                    |
 | Calculation type                                                                        | Custom logic                                                                           | Geometry optimization                                                                                                 |
 | Functional                                                                              | Custom logic                                                                           | PBE+U                                                                                                                 |
-| Shell type (ISPIN)                                                                      | [&lt;scalar dictRef="v:ispin"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580)                                    | Open Shell                                                                                                            |
-| Temperature                                                                             | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580)                                    | 0.0K                                                                                                                  |
+| Shell type (ISPIN)                                                                      | [&lt;scalar dictRef="v:ispin"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580.md)                                    | Open Shell                                                                                                            |
+| Temperature                                                                             | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580.md)                                    | 0.0K                                                                                                                  |
 
 ######VASP - General Info - Main fields
 
@@ -24,7 +24,7 @@
 
 # Settings
 
-Most relevant calculation input parameters. Almost all information fields come from [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580)
+Most relevant calculation input parameters. Almost all information fields come from [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580.md)
 
 -   SIGMA
 
@@ -50,7 +50,7 @@ Most relevant calculation input parameters. Almost all information fields come f
 
 -   VDW and VDW Version
 
--   Parameters for Grimme's potential [&lt;module cmlx:templateRef="grimmes"&gt;](/out/md/cml/vasp_outcar/grimmes-d3e26993)
+-   Parameters for Grimme's potential [&lt;module cmlx:templateRef="grimmes"&gt;](/out/md/cml/vasp_outcar/grimmes-d3e26993.md)
 
 ![](/imgs/VASP_settings.png)
 
@@ -58,12 +58,12 @@ Most relevant calculation input parameters. Almost all information fields come f
 
 After settings section, our HTML resume will output cell coordinates, lattice vectors and a coordinates table with molecule atoms.
 
-Initial geometry its readed from OUTCAR file using :[&lt;module cmlx:templateRef="position"&gt;](#position-d3e26244), [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580), [&lt;module cmlx:templateRef="potcar"&gt;](/out/md/cml/vasp_outcar/potcar-d3e26067) and [&lt;module
+Initial geometry its readed from OUTCAR file using :[&lt;module cmlx:templateRef="position"&gt;](#position-d3e26244), [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e25580.md), [&lt;module cmlx:templateRef="potcar"&gt;](/out/md/cml/vasp_outcar/potcar-d3e26067.md) and [&lt;module
 cmlx:templateRef="laticce"&gt;](#lattice-d3e26154)
 
-Final geometry will be generated using the same modules than Initial geometry, but coordinates will come from last instance of [&lt;module cmlx:templateRef="calculated.position"&gt;](/out/md/cml/vasp_outcar/calculated.position-d3e26381)
+Final geometry will be generated using the same modules than Initial geometry, but coordinates will come from last instance of [&lt;module cmlx:templateRef="calculated.position"&gt;](/out/md/cml/vasp_outcar/calculated.position-d3e26381.md)
 
-For every atom, we will output it's serial number, atom type, cartesian and fractional coordinates (in angstroms) , and [basis used](/out/md/cml/vasp_outcar/atom.potcar-d3e26074).
+For every atom, we will output it's serial number, atom type, cartesian and fractional coordinates (in angstroms) , and [basis used](/out/md/cml/vasp_outcar/atom.potcar-d3e26074.md).
 
 ![](/imgs/VASP_geometry.png)
 
@@ -71,7 +71,7 @@ For every atom, we will output it's serial number, atom type, cartesian and frac
 
 This section captures molecule additional information not captured on previous section.
 
-K-point generation parameters readed form [KPOINTS file](/out/md/cml/vasp_outcar/vasp.kpoints-d3e37348)
+K-point generation parameters readed form [KPOINTS file](/out/md/cml/vasp_outcar/vasp.kpoints-d3e37348.md)
 
 ![](/imgs/VASP_molecularinfo.png)
 
@@ -79,7 +79,7 @@ K-point generation parameters readed form [KPOINTS file](/out/md/cml/vasp_outcar
 
 ## Energies
 
-Data source: [&lt;module cmlx:templateRef='energy'&gt;](/out/md/cml/vasp_outcar/energy-d3e26584)
+Data source: [&lt;module cmlx:templateRef='energy'&gt;](/out/md/cml/vasp_outcar/energy-d3e26584.md)
 
 This module will hold Free ,E0 , dE and E-fermi energies.
 
@@ -93,7 +93,7 @@ On multiple OUTCAR calculations like Nudge Elastic Band (NEB) or Dimmer, a graph
 
 ## Eigenvalues
 
-Data source: [&lt;module cmlx:templateRef='eigenvalues'&gt;](/out/md/cml/vasp_outcar/eigenvalues-d3e26819)
+Data source: [&lt;module cmlx:templateRef='eigenvalues'&gt;](/out/md/cml/vasp_outcar/eigenvalues-d3e26819.md)
 
 This module will display eigenvalues per spin and kpoint.
 
@@ -101,7 +101,7 @@ This module will display eigenvalues per spin and kpoint.
 
 ## DOS
 
-Data source: DOSCAR file [&lt;module cmlx:templateRef='vasp.doscar'&gt;](/out/md/cml/vasp_outcar/vasp.doscar-d3e37390)
+Data source: DOSCAR file [&lt;module cmlx:templateRef='vasp.doscar'&gt;](/out/md/cml/vasp_outcar/vasp.doscar-d3e37390.md)
 
 On calculations where VASP DOSCAR file has been uploaded, a form will be displayed to configure a graph with the Density Of States (DOS) information
 
@@ -111,13 +111,13 @@ In this form we will can select atoms by index, range or atom type, select spin 
 
 ## Magnetization
 
-Data source: [&lt;module cmlx:templateRef='magnetization'&gt;](/out/md/cml/vasp_outcar/magnetization-d3e26682)
+Data source: [&lt;module cmlx:templateRef='magnetization'&gt;](/out/md/cml/vasp_outcar/magnetization-d3e26682.md)
 
 ![](/imgs/VASP_module_magnetization.png)
 
 ## Vibrations
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/vasp_outcar/vibrations-d3e26519)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/vasp_outcar/vibrations-d3e26519.md)
 
 ![](/imgs/VASP_module_vibration.png)
 

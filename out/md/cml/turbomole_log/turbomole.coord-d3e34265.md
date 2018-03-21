@@ -17,10 +17,10 @@
 
 ######Template attributes
 
--   [coord](/out/md/cml/turbomole_log/coord-d3e34269)
+-   [coord](/out/md/cml/turbomole_log/coord-d3e34269.md)
 
 <!-- -->
 
--   [restrictions](/out/md/cml/turbomole_log/restrictions-d3e34618)
+-   [restrictions](/out/md/cml/turbomole_log/restrictions-d3e34618.md)
 
 

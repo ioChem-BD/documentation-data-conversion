@@ -46,10 +46,10 @@
         
         
 
--   [scf](/out/md/cml/adf_log/scf-d3e1997)
+-   [scf](/out/md/cml/adf_log/scf-d3e1997.md)
 
 <!-- -->
 
--   [geometry.cycle](/out/md/cml/adf_log/geometry.cycle-d3e2028)
+-   [geometry.cycle](/out/md/cml/adf_log/geometry.cycle-d3e2028.md)
 
 

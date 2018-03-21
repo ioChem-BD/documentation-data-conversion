@@ -6,7 +6,7 @@
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
 | Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://argo.urv.es:8080/jspui/handle/123456789/6                                                                     |
-| Program                                                                                 | [program.header template](/out/md/cml/adf_log/program.header-d3e26)                                       | ADF 2007                                                                                                              |
+| Program                                                                                 | [program.header template](/out/md/cml/adf_log/program.header-d3e26.md)                                       | ADF 2007                                                                                                              |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | H 1 O 40 P 1 Ti 1 W 11                                                                                                |
 | Calculation type                                                                        | Custom logic                                                                           | Geometry optimization Minimum                                                                                         |
@@ -16,10 +16,10 @@
 
 | Field                                                                                             | Source                                                                                            | Sample value                                                                                      |
 |----|----|----|
-| Temperature                                                                                       | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914)                                      | 300 K                                                                                             |
-| Pressure                                                                                          | [&lt;scalar dictRef="cc:press"&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914)                                     | 1.0 atm                                                                                           |
+| Temperature                                                                                       | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914.md)                                      | 300 K                                                                                             |
+| Pressure                                                                                          | [&lt;scalar dictRef="cc:press"&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914.md)                                     | 1.0 atm                                                                                           |
 
-######ADF - General Info - Additional fields (if [thermochemistry](/out/md/cml/adf_log/thermochemistry-d3e3914) module exists)
+######ADF - General Info - Additional fields (if [thermochemistry](/out/md/cml/adf_log/thermochemistry-d3e3914.md) module exists)
 
 ![](/imgs/ADF_header.png)
 
@@ -39,11 +39,11 @@ If there are multiple geometries we'll capture them acording with the following 
 
 | Section                                                                                                                                             | Note                                                                                                                                                |
 |----|----|
-| [&lt;module cmlx:templateRef="geometry.cycle"&gt;](/out/md/cml/adf_log/geometry.cycle-d3e2028)                                                                         | Latest geometry cycle(Coordinates on Input orientation)                                                                                             |
-| [&lt;module cmlx:templateRef="geometry.cycle"&gt;](/out/md/cml/adf_log/geometry.cycle-d3e2028)                                                                         | Lastest geom.opt. (Coordinates)                                                                                                                     |
-| [&lt;module cmlx:templateRef="quild.coord"&gt;](/out/md/cml/adf_log/quild.coord-d3e4161)                                                                               | Latest quild iteration                                                                                                                              |
-| [&lt;module cmlx:templateRef="nuclear.coordinates"&gt;](/out/md/cml/adf_log/nuclear.coordinates-d3e145)                                                                | NMR geometry                                                                                                                                        |
-| [&lt;module cmlx:templateRef="geometry"&gt;](/out/md/cml/adf_log/geometry-d3e1546)                                                                                     | Single point initial geometry                                                                                                                       |
+| [&lt;module cmlx:templateRef="geometry.cycle"&gt;](/out/md/cml/adf_log/geometry.cycle-d3e2028.md)                                                                         | Latest geometry cycle(Coordinates on Input orientation)                                                                                             |
+| [&lt;module cmlx:templateRef="geometry.cycle"&gt;](/out/md/cml/adf_log/geometry.cycle-d3e2028.md)                                                                         | Lastest geom.opt. (Coordinates)                                                                                                                     |
+| [&lt;module cmlx:templateRef="quild.coord"&gt;](/out/md/cml/adf_log/quild.coord-d3e4161.md)                                                                               | Latest quild iteration                                                                                                                              |
+| [&lt;module cmlx:templateRef="nuclear.coordinates"&gt;](/out/md/cml/adf_log/nuclear.coordinates-d3e145.md)                                                                | NMR geometry                                                                                                                                        |
+| [&lt;module cmlx:templateRef="geometry"&gt;](/out/md/cml/adf_log/geometry-d3e1546.md)                                                                                     | Single point initial geometry                                                                                                                       |
 
 ######Atomic coordinates - Possible candidates (most important first)
 
@@ -55,10 +55,10 @@ This section captures molecule additional information not captured on previous s
 
 | Field                                                                                             | Source                                                                                            | Description                                                                                       |
 |----|----|----|
-| Spin polarization                                                                                 | [&lt;scalar dictRef="a:spinPolarization"&gt;](/out/md/cml/adf_log/logfile-d3e4294)                                   | Variable found inside logfile module (last instance is captured)                                  |
-| Multiplicity                                                                                      | Depends on [spin polarization](/out/md/cml/adf_log/spinPolarization)                                                 | If spin polarization exists, multiplicity = spinpolarization + 1, otherwise multiplicity = 1      |
-| Charge                                                                                            | [&lt;scalar dictRef="a:charge"&gt;](/out/md/cml/adf_log/logfile-d3e4294)                                             | Variable found inside logfile module (last instance is captured)                                  |
-| Solvation                                                                                         | [&lt;module cmlx:templateRef="solvation"&gt;](/out/md/cml/adf_log/solvation-d3e1402)                                 | Solvation parameters                                                                              |
+| Spin polarization                                                                                 | [&lt;scalar dictRef="a:spinPolarization"&gt;](/out/md/cml/adf_log/logfile-d3e4294.md)                                   | Variable found inside logfile module (last instance is captured)                                  |
+| Multiplicity                                                                                      | Depends on [spin polarization](/out/md/cml/adf_log/spinPolarization.md)                                                 | If spin polarization exists, multiplicity = spinpolarization + 1, otherwise multiplicity = 1      |
+| Charge                                                                                            | [&lt;scalar dictRef="a:charge"&gt;](/out/md/cml/adf_log/logfile-d3e4294.md)                                             | Variable found inside logfile module (last instance is captured)                                  |
+| Solvation                                                                                         | [&lt;module cmlx:templateRef="solvation"&gt;](/out/md/cml/adf_log/solvation-d3e1402.md)                                 | Solvation parameters                                                                              |
 
 ######Molecular Info - Main fields
 
@@ -68,47 +68,47 @@ This section captures molecule additional information not captured on previous s
 
 ## Bonding energy
 
-Data source: [&lt;module cmlx:templateRef='bonding.energy'&gt;](/out/md/cml/adf_log/bonding.energy-d3e3015)
+Data source: [&lt;module cmlx:templateRef='bonding.energy'&gt;](/out/md/cml/adf_log/bonding.energy-d3e3015.md)
 
 ![](/imgs/ADF_module_bondingenergies.png)
 
 ## Fit test
 
-Data source: [&lt;module cmlx:templateRef='fit.test'&gt;](/out/md/cml/adf_log/fit.test-d3e2555)
+Data source: [&lt;module cmlx:templateRef='fit.test'&gt;](/out/md/cml/adf_log/fit.test-d3e2555.md)
 
 ![](/imgs/ADF_module_fittest.png)
 
 ## MOs / SFO gross populations
 
-Data source: [&lt;module cmlx:templateRef='molecular-orbitals'&gt;](/out/md/cml/adf_log/molecular.orbitals-d3e3125)
+Data source: [&lt;module cmlx:templateRef='molecular-orbitals'&gt;](/out/md/cml/adf_log/molecular.orbitals-d3e3125.md)
 
 ![](/imgs/ADF_module_molecularorbitals.png)
 
 ## MOs Energies
 
-Data source: [&lt;module cmlx:templateRef='orbital.energies'&gt;](/out/md/cml/adf_log/orbital.energies-d3e2470)
+Data source: [&lt;module cmlx:templateRef='orbital.energies'&gt;](/out/md/cml/adf_log/orbital.energies-d3e2470.md)
 
-Data source: [&lt;module cmlx:templateRef='orbital.energies.spin'&gt;](/out/md/cml/adf_log/orbital.energies.spin-d3e2511)
+Data source: [&lt;module cmlx:templateRef='orbital.energies.spin'&gt;](/out/md/cml/adf_log/orbital.energies.spin-d3e2511.md)
 
 ![](/imgs/ADF_module_orbitalenergies.png)
 
-Data source: [&lt;module cmlx:templateRef='orbital.energies.spin'&gt;](/out/md/cml/adf_log/orbital.energies.spin-d3e2511)
+Data source: [&lt;module cmlx:templateRef='orbital.energies.spin'&gt;](/out/md/cml/adf_log/orbital.energies.spin-d3e2511.md)
 
 ![](/imgs/ADF_module_orbitalenergiesspin.png)
 
 ## Mulliken Atomic Charges
 
-Data source [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/adf_log/mulliken-d3e2608)
+Data source [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/adf_log/mulliken-d3e2608.md)
 
 ![](/imgs/ADF_module_mullikenatomiccharges.png)
 
 ## Multipole Derived Atomic Charges
 
-Data source: [&lt;module cmlx:templateRef='atomic.charges'&gt;](/out/md/cml/adf_log/atomic.charges-d3e2805)
+Data source: [&lt;module cmlx:templateRef='atomic.charges'&gt;](/out/md/cml/adf_log/atomic.charges-d3e2805.md)
 
-Data source: [&lt;module cmlx:templateRef='atomic.charges.spin'&gt;](/out/md/cml/adf_log/atomic.charges.spin-d3e2855)
+Data source: [&lt;module cmlx:templateRef='atomic.charges.spin'&gt;](/out/md/cml/adf_log/atomic.charges.spin-d3e2855.md)
 
-Data source: [&lt;module cmlx:templateRef='spin.density'&gt;](/out/md/cml/adf_log/spin.density-d3e2905)
+Data source: [&lt;module cmlx:templateRef='spin.density'&gt;](/out/md/cml/adf_log/spin.density-d3e2905.md)
 
 ![](/imgs/ADF_module_multipolederivedatomiccharges.png)
 
@@ -118,25 +118,25 @@ Data source: [&lt;module cmlx:templateRef='spin.density'&gt;](/out/md/cml/adf_lo
 
 ## Quadrupole Moment
 
-Data source: [&lt;module cmlx:templateRef='quadrupole.moment'&gt;](/out/md/cml/adf_log/quadrupole.moment-d3e2958)
+Data source: [&lt;module cmlx:templateRef='quadrupole.moment'&gt;](/out/md/cml/adf_log/quadrupole.moment-d3e2958.md)
 
 ![](/imgs/ADF_module_quadrupolemoment.png)
 
 ## S\*\*2
 
-Data source: [&lt;module cmlx:templateRef="s2"&gt;](/out/md/cml/adf_log/s2-d3e2987)
+Data source: [&lt;module cmlx:templateRef="s2"&gt;](/out/md/cml/adf_log/s2-d3e2987.md)
 
 ![](/imgs/ADF_module_s2.png)
 
 ## Vibrational Frequencies and Intensities
 
-Data source: [&lt;module cmlx:templateRef='intensities'&gt;](/out/md/cml/adf_log/intensities-d3e3875)
+Data source: [&lt;module cmlx:templateRef='intensities'&gt;](/out/md/cml/adf_log/intensities-d3e3875.md)
 
 ![](/imgs/ADF_module_intensities.png)
 
 ## IR spectrum
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/adf_log/vibrations-d3e3797)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/adf_log/vibrations-d3e3797.md)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
@@ -146,37 +146,37 @@ This module will display JSpecView + JSmol plugins (using javascript libraries) 
 
 Data source:
 
--   [&lt;module cmlx:templateRef="zeropoint"&gt;&lt;scalar dictRef="cc:zeropoint"&gt;](/out/md/cml/adf_log/zeropoint-d3e3766)
+-   [&lt;module cmlx:templateRef="zeropoint"&gt;&lt;scalar dictRef="cc:zeropoint"&gt;](/out/md/cml/adf_log/zeropoint-d3e3766.md)
 
 ![](/imgs/ADF_module_zeropointenergy.png)
 
 ## Thermochemistry
 
-Data source: [&lt;module cmlx:templateRef='thermochemistry'&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914)
+Data source: [&lt;module cmlx:templateRef='thermochemistry'&gt;](/out/md/cml/adf_log/thermochemistry-d3e3914.md)
 
 ![](/imgs/ADF_module_thermochemistry.png)
 
 ## Final Excitation Energies
 
-Data source: [&lt;module cmlx:templateRef='excitation.energy'&gt;](/out/md/cml/adf_log/excitation.energy-d3e3539)
+Data source: [&lt;module cmlx:templateRef='excitation.energy'&gt;](/out/md/cml/adf_log/excitation.energy-d3e3539.md)
 
 ![](/imgs/ADF_module_finalexcitationenergies.png)
 
 ## NMR Shielding Tensors
 
-Data source: [&lt;module cmlx:templateRef='nmr'&gt;](/out/md/cml/adf_log/nmr-d3e19)
+Data source: [&lt;module cmlx:templateRef='nmr'&gt;](/out/md/cml/adf_log/nmr-d3e19.md)
 
 ![](/imgs/ADF_module_nmr.png)
 
 ## Timing
 
-Data source: [&lt;module cmlx:templateRef='timing'&gt;](/out/md/cml/adf_log/timing-d3e4389)
+Data source: [&lt;module cmlx:templateRef='timing'&gt;](/out/md/cml/adf_log/timing-d3e4389.md)
 
 ![](/imgs/ADF_module_timing.png)
 
 ## Input file
 
-Data source: [&lt;module cmlx:templateRef='input.file'&gt;](/out/md/cml/adf_log/input.file-d3e5751)
+Data source: [&lt;module cmlx:templateRef='input.file'&gt;](/out/md/cml/adf_log/input.file-d3e5751.md)
 
 ![](/imgs/ADF_module_inputfile.png)
 

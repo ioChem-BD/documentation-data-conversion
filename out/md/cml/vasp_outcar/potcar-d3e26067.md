@@ -112,6 +112,6 @@
 
 **Comment.**
 
--   [atom.potcar](/out/md/cml/vasp_outcar/atom.potcar-d3e26074)
+-   [atom.potcar](/out/md/cml/vasp_outcar/atom.potcar-d3e26074.md)
 
 

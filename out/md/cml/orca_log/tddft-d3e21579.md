@@ -21,10 +21,10 @@
 
 ######Template attributes
 
--   [excitedstates](/out/md/cml/orca_log/excitedstates-d3e21583)
+-   [excitedstates](/out/md/cml/orca_log/excitedstates-d3e21583.md)
 
 <!-- -->
 
--   [absorptionspec](/out/md/cml/orca_log/absorptionspec-d3e21910)
+-   [absorptionspec](/out/md/cml/orca_log/absorptionspec-d3e21910.md)
 
 

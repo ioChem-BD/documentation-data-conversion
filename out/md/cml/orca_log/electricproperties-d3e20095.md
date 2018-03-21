@@ -74,10 +74,10 @@
     </comment>
 ```
 
--   [dipole](/out/md/cml/orca_log/dipole-d3e20102)
+-   [dipole](/out/md/cml/orca_log/dipole-d3e20102.md)
 
 <!-- -->
 
--   [quadrupole](/out/md/cml/orca_log/quadrupole-d3e20169)
+-   [quadrupole](/out/md/cml/orca_log/quadrupole-d3e20169.md)
 
 

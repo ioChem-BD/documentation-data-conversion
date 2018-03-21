@@ -31,10 +31,10 @@
 
                         ********************************
 
--   [atomiccharges](/out/md/cml/orca_log/atomiccharges-d3e19760)
+-   [atomiccharges](/out/md/cml/orca_log/atomiccharges-d3e19760.md)
 
 <!-- -->
 
--   [atomicchargesspin](/out/md/cml/orca_log/atomicchargesspin-d3e19799)
+-   [atomicchargesspin](/out/md/cml/orca_log/atomicchargesspin-d3e19799.md)
 
 

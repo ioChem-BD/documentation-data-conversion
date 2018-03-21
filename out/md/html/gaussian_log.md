@@ -6,7 +6,7 @@
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
 | Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://argo.urv.es:8080/jspui/handle/123456789/6                                                                     |
-| Program                                                                                 | [&lt;scalar dictRef="cc:program"&gt;](/out/md/cml/gaussian_log/jobcpu-d3e17316) | [&lt;scalar                  | Gaussian 09                                                                                                           |
+| Program                                                                                 | [&lt;scalar dictRef="cc:program"&gt;](/out/md/cml/gaussian_log/jobcpu-d3e17316.md) | [&lt;scalar                  | Gaussian 09                                                                                                           |
 |                                                                                         | dictRef="cc:program"&gt;](#l1.end-d3e5914) template                                    |                                                                                                                       |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | H 1 O 40 P 1 Ti 1 W 11                                                                                                |
@@ -17,10 +17,10 @@
 
 | Field                                                                                             | Source                                                                                            | Sample value                                                                                      |
 |----|----|----|
-| Temperature                                                                                       | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/gaussian_log/l716.thermochemistry.temperature-d3e14493)                    | 298.15 K                                                                                          |
-| Pressure                                                                                          | [&lt;scalar dictRef="cc:press"&gt;](/out/md/cml/gaussian_log/l716.thermochemistry.temperature-d3e14493)                   | 1.0 atm                                                                                           |
+| Temperature                                                                                       | [&lt;scalar dictRef="cc:temp"&gt;](/out/md/cml/gaussian_log/l716.thermochemistry.temperature-d3e14493.md)                    | 298.15 K                                                                                          |
+| Pressure                                                                                          | [&lt;scalar dictRef="cc:press"&gt;](/out/md/cml/gaussian_log/l716.thermochemistry.temperature-d3e14493.md)                   | 1.0 atm                                                                                           |
 
-######Gaussian - General Info with additional fields (if [thermochemistry](/out/md/cml/gaussian_log/l716.thermochemistry-d3e14484) module exists)
+######Gaussian - General Info with additional fields (if [thermochemistry](/out/md/cml/gaussian_log/l716.thermochemistry-d3e14484.md) module exists)
 
 ![](/imgs/GAUSSIAN_header.png)
 
@@ -32,7 +32,7 @@
 
 After header section, our HTML resume will output a xyz coordinates table with current molecule atoms.
 
-For every atom, we will output it's serial number, atom type, coordinates in angstroms, [basis used and core](#l301.basis2-d3e11822), or simply [basis](/out/md/cml/gaussian_log/l301.basis-d3e11534).
+For every atom, we will output it's serial number, atom type, coordinates in angstroms, [basis used and core](#l301.basis2-d3e11822), or simply [basis](/out/md/cml/gaussian_log/l301.basis-d3e11534.md).
 
 In geometry optimizations calculations, next to geometry section header there will appear the word **(optimized)**, pointing that this geometry is the last one from all optimization steps and has converged.
 
@@ -54,19 +54,19 @@ This section captures molecule additional information not captured on previous s
 |----|----|----|
 | Multiplicity                                                                                      | Appears in                                                                                        |                                                                                                   |
 |                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   qmm module [&lt;array dictRef="g:multiplicity"&gt;](/out/md/cml/gaussian_log/l101.qmmm-d3e6273)                       |                                                                                                   |
+|                                                                                                   | -   qmm module [&lt;array dictRef="g:multiplicity"&gt;](/out/md/cml/gaussian_log/l101.qmmm-d3e6273.md)                       |                                                                                                   |
 |                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   [l101.zmat module](/out/md/cml/gaussian_log/l101.zmat-d3e6746)                                                        |                                                                                                   |
+|                                                                                                   | -   [l101.zmat module](/out/md/cml/gaussian_log/l101.zmat-d3e6746.md)                                                        |                                                                                                   |
 |                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   [l101.zmata module](/out/md/cml/gaussian_log/l101.zmata-d3e6828)                                                      |                                                                                                   |
+|                                                                                                   | -   [l101.zmata module](/out/md/cml/gaussian_log/l101.zmata-d3e6828.md)                                                      |                                                                                                   |
 |                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   l9999.archive module [&lt;scalar @dictRef='x:spinMultiplicity'&gt;](/out/md/cml/gaussian_log/l9999.archive-d3e16653)  |                                                                                                   |
+|                                                                                                   | -   l9999.archive module [&lt;scalar @dictRef='x:spinMultiplicity'&gt;](/out/md/cml/gaussian_log/l9999.archive-d3e16653.md)  |                                                                                                   |
 | Charge                                                                                            | It can appear on same places that multiplicity field and also in [l9999.archive                   |                                                                                                   |
-|                                                                                                   | module](/out/md/cml/gaussian_log/l9999.archive-d3e16653)                                                                  |                                                                                                   |
-| QMMM                                                                                              | [&lt;module cmlx:templateRef="l101.qmmm"&gt;](/out/md/cml/gaussian_log/l101.qmmm-d3e6273)                                 |                                                                                                   |
-| Frozen section                                                                                    | [&lt;module cmlx:templateRef="l101.modredundant"&gt;](/out/md/cml/gaussian_log/l101.modredundant-d3e7209)                 |                                                                                                   |
-| Point group                                                                                       | [&lt;module cmlx:templateRef="l202.stoich"&gt;](/out/md/cml/gaussian_log/l202.stoich-d3e11440)                            |                                                                                                   |
-| Solvation                                                                                         | [&lt;module cmlx:templateRef="l301.pcm.standard"&gt;](/out/md/cml/gaussian_log/l301.pcm.standard-d3e12584)                | Solvation parameters                                                                              |
+|                                                                                                   | module](/out/md/cml/gaussian_log/l9999.archive-d3e16653.md)                                                                  |                                                                                                   |
+| QMMM                                                                                              | [&lt;module cmlx:templateRef="l101.qmmm"&gt;](/out/md/cml/gaussian_log/l101.qmmm-d3e6273.md)                                 |                                                                                                   |
+| Frozen section                                                                                    | [&lt;module cmlx:templateRef="l101.modredundant"&gt;](/out/md/cml/gaussian_log/l101.modredundant-d3e7209.md)                 |                                                                                                   |
+| Point group                                                                                       | [&lt;module cmlx:templateRef="l202.stoich"&gt;](/out/md/cml/gaussian_log/l202.stoich-d3e11440.md)                            |                                                                                                   |
+| Solvation                                                                                         | [&lt;module cmlx:templateRef="l301.pcm.standard"&gt;](/out/md/cml/gaussian_log/l301.pcm.standard-d3e12584.md)                | Solvation parameters                                                                              |
 
 ######Molecular Info - Main fields
 
@@ -78,17 +78,17 @@ This section captures molecule additional information not captured on previous s
 
 ## Energies
 
-Data source: [&lt;scalar dictRef='g:rbhflyp'&gt;](/out/md/cml/gaussian_log/l502.footer-d3e13354)
+Data source: [&lt;scalar dictRef='g:rbhflyp'&gt;](/out/md/cml/gaussian_log/l502.footer-d3e13354.md)
 
-Data source: [&lt;scalar dictRef='cc:dispenergy'&gt;](/out/md/cml/gaussian_log/l502.pcm-d3e13493)
+Data source: [&lt;scalar dictRef='cc:dispenergy'&gt;](/out/md/cml/gaussian_log/l502.pcm-d3e13493.md)
 
-Data source: [&lt;module cmlx:templateRef='l120'&gt;](/out/md/cml/gaussian_log/l120-d3e11177)
+Data source: [&lt;module cmlx:templateRef='l120'&gt;](/out/md/cml/gaussian_log/l120-d3e11177.md)
 
-Data source: [&lt;module cmlx:templateRef='l122'&gt;](/out/md/cml/gaussian_log/l122-d3e16437)
+Data source: [&lt;module cmlx:templateRef='l122'&gt;](/out/md/cml/gaussian_log/l122-d3e16437.md)
 
-Data source: [&lt;module cmlx:templateRef='l716.zeropoint'&gt;](/out/md/cml/gaussian_log/l716.zeropoint-d3e14198)
+Data source: [&lt;module cmlx:templateRef='l716.zeropoint'&gt;](/out/md/cml/gaussian_log/l716.zeropoint-d3e14198.md)
 
-Data source: [&lt;module cmlx:templateRef='l9999.archive'&gt;](/out/md/cml/gaussian_log/l9999.archive-d3e16653)
+Data source: [&lt;module cmlx:templateRef='l9999.archive'&gt;](/out/md/cml/gaussian_log/l9999.archive-d3e16653.md)
 
 ![](/imgs/GAUSSIAN_module_energies.png)
 
@@ -96,15 +96,15 @@ Data source: [&lt;module cmlx:templateRef='l9999.archive'&gt;](/out/md/cml/gauss
 
 ## Spin
 
-Data source: [&lt;module cmlx:templateRef='l601.mullikenspin'&gt;](/out/md/cml/gaussian_log/l601.mullikenspin-d3e9214)
+Data source: [&lt;module cmlx:templateRef='l601.mullikenspin'&gt;](/out/md/cml/gaussian_log/l601.mullikenspin-d3e9214.md)
 
-Data source: [&lt;scalar dictRef='cc:spincontamination'&gt;](/out/md/cml/gaussian_log/l502.footer2-d3e13533)
+Data source: [&lt;scalar dictRef='cc:spincontamination'&gt;](/out/md/cml/gaussian_log/l502.footer2-d3e13533.md)
 
 ![](/imgs/GAUSSIAN_module_l601_mullikenspin.png)
 
 ## IR spectrum
 
-Data source: [&lt;module cmlx:templateRef='l716.freq.chunkx'&gt;](/out/md/cml/gaussian_log/l716.freq.chunkx-d3e13865)
+Data source: [&lt;module cmlx:templateRef='l716.freq.chunkx'&gt;](/out/md/cml/gaussian_log/l716.freq.chunkx-d3e13865.md)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
@@ -112,13 +112,13 @@ This module will display JSpecView + JSmol plugins (using javascript libraries) 
 
 ## Mulliken atomic charges
 
-Data source: [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/gaussian_log/mulliken-d3e9175)
+Data source: [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/gaussian_log/mulliken-d3e9175.md)
 
 ![](/imgs/GAUSSIAN_module_mulliken.png)
 
 ## Dipole / Multipole moment
 
-Data source: [&lt;module cmlx:templateRef="multipole"&gt;](/out/md/cml/gaussian_log/multipole-d3e9341)
+Data source: [&lt;module cmlx:templateRef="multipole"&gt;](/out/md/cml/gaussian_log/multipole-d3e9341.md)
 
 ![](/imgs/GAUSSIAN_module_dipole_moment.png)
 

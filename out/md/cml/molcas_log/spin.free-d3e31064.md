@@ -80,10 +80,10 @@
     </comment>
 ```
 
--   [eigenvalues](/out/md/cml/molcas_log/eigenvalues-d3e31071)
+-   [eigenvalues](/out/md/cml/molcas_log/eigenvalues-d3e31071.md)
 
 <!-- -->
 
--   [strengths](/out/md/cml/molcas_log/strengths-d3e31147)
+-   [strengths](/out/md/cml/molcas_log/strengths-d3e31147.md)
 
 

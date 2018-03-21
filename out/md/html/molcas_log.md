@@ -6,7 +6,7 @@
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
 | Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://rodi.urv.es:8080/browse/handle/123456789/6                                                                    |
-| Program                                                                                 | [program.header template](/out/md/cml/molcas_log/module.header-d3e27204)                                     | Molcas 8.0 - service pack 1                                                                                           |
+| Program                                                                                 | [program.header template](/out/md/cml/molcas_log/module.header-d3e27204.md)                                     | Molcas 8.0 - service pack 1                                                                                           |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | C 8 H 12 N 8 O 2                                                                                                      |
 | Calculation type                                                                        | Custom logic                                                                           | Geometry optimization                                                                                                 |
@@ -38,7 +38,7 @@ This section captures molecule additional information not captured on previous s
 
 ## Symmetry information
 
-Data source: [&lt;module cmlx:templateRef='symmetry'&gt;](/out/md/cml/molcas_log/symmetry-d3e30017)
+Data source: [&lt;module cmlx:templateRef='symmetry'&gt;](/out/md/cml/molcas_log/symmetry-d3e30017.md)
 
 ![](/imgs/MOLCAS_symmetry.png)
 
@@ -46,10 +46,10 @@ Data source: [&lt;module cmlx:templateRef='symmetry'&gt;](/out/md/cml/molcas_log
 
 | Field                                                                                             | Source                                                                                            | Sample value                                                                                      |
 |----|----|----|
-| Charge                                                                                            | Readed from "charge" scalar on [molcharge](/out/md/cml/molcas_log/molcharge) line or from                               | 0.000                                                                                             |
-|                                                                                                   | [mulliken](/out/md/cml/molcas_log/mulliken-d3e29675) module                                                             |                                                                                                   |
-| Multiplicity                                                                                      | Readed from scalar\[m:spinquantumnum\] inside [wave.specs](/out/md/cml/molcas_log/wave.specs-d3e27768) module OR from   | 3                                                                                                 |
-|                                                                                                   | scalar\[m:spin\] inside [scf-ksdft](/out/md/cml/molcas_log/scf-ksdft-d3e29059) module                                   |                                                                                                   |
+| Charge                                                                                            | Readed from "charge" scalar on [molcharge](/out/md/cml/molcas_log/molcharge.md) line or from                               | 0.000                                                                                             |
+|                                                                                                   | [mulliken](/out/md/cml/molcas_log/mulliken-d3e29675.md) module                                                             |                                                                                                   |
+| Multiplicity                                                                                      | Readed from scalar\[m:spinquantumnum\] inside [wave.specs](/out/md/cml/molcas_log/wave.specs-d3e27768.md) module OR from   | 3                                                                                                 |
+|                                                                                                   | scalar\[m:spin\] inside [scf-ksdft](/out/md/cml/molcas_log/scf-ksdft-d3e29059.md) module                                   |                                                                                                   |
 
 ######Molecular Info - Main fields
 
@@ -57,27 +57,27 @@ Data source: [&lt;module cmlx:templateRef='symmetry'&gt;](/out/md/cml/molcas_log
 
 ## Solvation input
 
-Data source: [&lt;module cmlx:templateRef='pcm'&gt;](/out/md/cml/molcas_log/pcm-d3e27870)
+Data source: [&lt;module cmlx:templateRef='pcm'&gt;](/out/md/cml/molcas_log/pcm-d3e27870.md)
 
-Data source: [&lt;module cmlx:templateRef='kirkwood'&gt;](/out/md/cml/molcas_log/kirkwood-d3e27925)
+Data source: [&lt;module cmlx:templateRef='kirkwood'&gt;](/out/md/cml/molcas_log/kirkwood-d3e27925.md)
 
 ![](/imgs/MOLCAS_solvation.png)
 
 ## Integrals
 
-Data source: [&lt;module cmlx:templateRef='seward.generate'&gt;](/out/md/cml/molcas_log/seward.generate-d3e27976)
+Data source: [&lt;module cmlx:templateRef='seward.generate'&gt;](/out/md/cml/molcas_log/seward.generate-d3e27976.md)
 
 ![](/imgs/MOLCAS_sewardgenerate.png)
 
 ## Bond distances
 
-Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='coordinates'&gt;](/out/md/cml/molcas_log/coordinates-d3e27544)
+Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='coordinates'&gt;](/out/md/cml/molcas_log/coordinates-d3e27544.md)
 
 ![](/imgs/MOLCAS_bonddistances.png)
 
 ## Restrictions in the Geometry Optimization
 
-Data source: [&lt;module cmlx:templateRef='constraint'&gt;](/out/md/cml/molcas_log/constraint-d3e31503)
+Data source: [&lt;module cmlx:templateRef='constraint'&gt;](/out/md/cml/molcas_log/constraint-d3e31503.md)
 
 ![](/imgs/MOLCAS_restrictions.png)
 
@@ -85,57 +85,57 @@ Data source: [&lt;module cmlx:templateRef='constraint'&gt;](/out/md/cml/molcas_l
 
 ## Wave function specification
 
-Data source: [&lt;module cmlx:templateRef='wave.specs'&gt;](/out/md/cml/molcas_log/wave.specs-d3e27768)
+Data source: [&lt;module cmlx:templateRef='wave.specs'&gt;](/out/md/cml/molcas_log/wave.specs-d3e27768.md)
 
 ![](/imgs/MOLCAS_module_wavefunction.png)
 
 ## Orbital specifications
 
-Data source: [&lt;module cmlx:templateRef='orbital.specs'&gt;](/out/md/cml/molcas_log/orbital.specs-d3e29144)
+Data source: [&lt;module cmlx:templateRef='orbital.specs'&gt;](/out/md/cml/molcas_log/orbital.specs-d3e29144.md)
 
 ![](/imgs/MOLCAS_module_orbitalspecs.png)
 
 ## CI expansion specifications
 
-Data source: [&lt;module cmlx:templateRef='ci.expansion'&gt;](/out/md/cml/molcas_log/ci.expansion-d3e29424)
+Data source: [&lt;module cmlx:templateRef='ci.expansion'&gt;](/out/md/cml/molcas_log/ci.expansion-d3e29424.md)
 
 ![](/imgs/MOLCAS_module_ciexpansion.png)
 
 ## Energies
 
-Data source: [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038)
+Data source: [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038.md)
 
 ![](/imgs/MOLCAS_module_energies.png)
 
 ## Wave functions / Weights of the most important CSFs
 
-Data source [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038)
+Data source [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038.md)
 
 ![](/imgs/MOLCAS_module_wavefunctioncsf.png)
 
 ## Natural Occupation numbers
 
-Data source: [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038), module "natural"
+Data source: [&lt;module cmlx:templateRef='wave.printout'&gt;](/out/md/cml/molcas_log/wave.printout-d3e28038.md), module "natural"
 
 ![](/imgs/MOLCAS_module_natural.png)
 
 ## Mulliken Spin Population
 
-Data source: [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/molcas_log/mulliken-d3e29675), submodule "mulliken.spin"
+Data source: [&lt;module cmlx:templateRef='mulliken'&gt;](/out/md/cml/molcas_log/mulliken-d3e29675.md), submodule "mulliken.spin"
 
 ![](/imgs/MOLCAS_module_mullikenspin.png)
 
 ## Electrostatic moments
 
-Data source: [&lt;module cmlx:templateRef="properties"&gt;](/out/md/cml/molcas_log/properties-d3e30131)
+Data source: [&lt;module cmlx:templateRef="properties"&gt;](/out/md/cml/molcas_log/properties-d3e30131.md)
 
 ![](/imgs/MOLCAS_module_electrostaticmoments.png)
 
 ## Population analysis / Mulliken atomic charges
 
-Data source: [&lt;module cmlx:templateRef="loprop"&gt;](/out/md/cml/molcas_log/loprop-d3e30308)
+Data source: [&lt;module cmlx:templateRef="loprop"&gt;](/out/md/cml/molcas_log/loprop-d3e30308.md)
 
-Data source: [&lt;module cmlx:templateRef="mulliken"&gt;](/out/md/cml/molcas_log/mulliken-d3e29675)
+Data source: [&lt;module cmlx:templateRef="mulliken"&gt;](/out/md/cml/molcas_log/mulliken-d3e29675.md)
 
 ![](/imgs/MOLCAS_module_loprop.png)
 
@@ -143,19 +143,19 @@ Data source: [&lt;module cmlx:templateRef="mulliken"&gt;](/out/md/cml/molcas_log
 
 ## Single-State CASPT2
 
-Data source: [&lt;module cmlx:templateRef="final.caspt2"&gt;](/out/md/cml/molcas_log/final.caspt2-d3e30841)
+Data source: [&lt;module cmlx:templateRef="final.caspt2"&gt;](/out/md/cml/molcas_log/final.caspt2-d3e30841.md)
 
 ![](/imgs/MOLCAS_module_singlestate_caspt2.png)
 
 ## Final energy
 
-Data source: [&lt;module cmlx:templateRef="scf-ksdft"&gt;](/out/md/cml/molcas_log/scf-ksdft-d3e29059) scalar dictRef='m:scfener'
+Data source: [&lt;module cmlx:templateRef="scf-ksdft"&gt;](/out/md/cml/molcas_log/scf-ksdft-d3e29059.md) scalar dictRef='m:scfener'
 
-Data source: [&lt;module cmlx:templateRef="cchc"&gt;](/out/md/cml/molcas_log/cchc-d3e31730) scalar dictRef='m:e2mp2energy'
+Data source: [&lt;module cmlx:templateRef="cchc"&gt;](/out/md/cml/molcas_log/cchc-d3e31730.md) scalar dictRef='m:e2mp2energy'
 
-Data source: [&lt;module cmlx:templateRef="cchc"&gt;](/out/md/cml/molcas_log/cchc-d3e31730) scalar dictRef='m:e2ccsdenergy'
+Data source: [&lt;module cmlx:templateRef="cchc"&gt;](/out/md/cml/molcas_log/cchc-d3e31730.md) scalar dictRef='m:e2ccsdenergy'
 
-Data source: [&lt;module cmlx:templateRef="ccsdt"&gt;](/out/md/cml/molcas_log/ccsdt) scalar dictRef='m:ccsdtcorrenergy'
+Data source: [&lt;module cmlx:templateRef="ccsdt"&gt;](/out/md/cml/molcas_log/ccsdt.md) scalar dictRef='m:ccsdtcorrenergy'
 
 ![](/imgs/MOLCAS_module_finalenergy.png)
 
@@ -163,7 +163,7 @@ Data source: [&lt;module cmlx:templateRef="ccsdt"&gt;](/out/md/cml/molcas_log/cc
 
 ## HZERO
 
-Data source: [&lt;module cmlx:templateRef="extras"&gt;](/out/md/cml/molcas_log/extras-d3e30376)
+Data source: [&lt;module cmlx:templateRef="extras"&gt;](/out/md/cml/molcas_log/extras-d3e30376.md)
 
 ![](/imgs/MOLCAS_module_hzero.png)
 
@@ -171,7 +171,7 @@ Data source: [&lt;module cmlx:templateRef="extras"&gt;](/out/md/cml/molcas_log/e
 
 This module also allows displaying harmonic frequency intensities on a customizable chart.
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/molcas_log/vibrations-d3e31366)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/molcas_log/vibrations-d3e31366.md)
 
 ![](/imgs/MOLCAS_module_harmonicfreq.png)
 
@@ -179,7 +179,7 @@ Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/molcas_l
 
 ## IR spectrum / Vibrational frequencies
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/molcas_log/vibrations-d3e31366)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/molcas_log/vibrations-d3e31366.md)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
@@ -187,13 +187,13 @@ This module will display JSpecView + JSmol plugins (using javascript libraries) 
 
 ## Multipole Expansion Analysis
 
-Data source:[&lt;module cmlx:templateRef="atom.expansion"&gt;](/out/md/cml/molcas_log/atom.expansion-d3e31806)
+Data source:[&lt;module cmlx:templateRef="atom.expansion"&gt;](/out/md/cml/molcas_log/atom.expansion-d3e31806.md)
 
 ![](/imgs/MOLCAS_module_multipoleexpansion.png)
 
 ## LoProp Analysis
 
-Data source: [&lt;module cmlx:templateRef='dynamic.loprop'&gt;](/out/md/cml/molcas_log/dynamic.loprop-d3e31932)
+Data source: [&lt;module cmlx:templateRef='dynamic.loprop'&gt;](/out/md/cml/molcas_log/dynamic.loprop-d3e31932.md)
 
 ![](/imgs/MOLCAS_module_loprop_analysis.png)
 

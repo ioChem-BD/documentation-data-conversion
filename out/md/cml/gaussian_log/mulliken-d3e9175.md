@@ -78,6 +78,6 @@ Gaussian log
   </comment>
 ```
 
--   [l601.mullikenspin](/out/md/cml/gaussian_log/l601.mullikenspin-d3e9214)
+-   [l601.mullikenspin](/out/md/cml/gaussian_log/l601.mullikenspin-d3e9214.md)
 
 

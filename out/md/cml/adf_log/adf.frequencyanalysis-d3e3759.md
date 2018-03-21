@@ -91,18 +91,18 @@ ADF log
      
         
 
--   [zeropoint](/out/md/cml/adf_log/zeropoint-d3e3766)
+-   [zeropoint](/out/md/cml/adf_log/zeropoint-d3e3766.md)
 
 <!-- -->
 
--   [vibrations](/out/md/cml/adf_log/vibrations-d3e3797)
+-   [vibrations](/out/md/cml/adf_log/vibrations-d3e3797.md)
 
 <!-- -->
 
--   [intensities](/out/md/cml/adf_log/intensities-d3e3875)
+-   [intensities](/out/md/cml/adf_log/intensities-d3e3875.md)
 
 <!-- -->
 
--   [thermochemistry](/out/md/cml/adf_log/thermochemistry-d3e3914)
+-   [thermochemistry](/out/md/cml/adf_log/thermochemistry-d3e3914.md)
 
 

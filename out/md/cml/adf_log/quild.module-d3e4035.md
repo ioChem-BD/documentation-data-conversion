@@ -58,10 +58,10 @@
      
         
 
--   [program.header](/out/md/cml/adf_log/program.header-d3e4042)
+-   [program.header](/out/md/cml/adf_log/program.header-d3e4042.md)
 
 <!-- -->
 
--   [quild.coord](/out/md/cml/adf_log/quild.coord-d3e4161)
+-   [quild.coord](/out/md/cml/adf_log/quild.coord-d3e4161.md)
 
 

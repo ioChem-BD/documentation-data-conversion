@@ -48,10 +48,10 @@
       ...   
         
 
--   [normal](/out/md/cml/turbomole_log/normal-d3e33864)
+-   [normal](/out/md/cml/turbomole_log/normal-d3e33864.md)
 
 <!-- -->
 
--   [spectrum](/out/md/cml/turbomole_log/spectrum-d3e33912)
+-   [spectrum](/out/md/cml/turbomole_log/spectrum-d3e33912.md)
 
 

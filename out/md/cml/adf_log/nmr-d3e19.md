@@ -67,14 +67,14 @@
 
                                  N M R   E X I T
 
--   [program.header](/out/md/cml/adf_log/program.header-d3e26)
+-   [program.header](/out/md/cml/adf_log/program.header-d3e26.md)
 
 <!-- -->
 
--   [nuclear.coordinates](/out/md/cml/adf_log/nuclear.coordinates-d3e145)
+-   [nuclear.coordinates](/out/md/cml/adf_log/nuclear.coordinates-d3e145.md)
 
 <!-- -->
 
--   [nucleus](/out/md/cml/adf_log/nucleus-d3e568)
+-   [nucleus](/out/md/cml/adf_log/nucleus-d3e568.md)
 
 

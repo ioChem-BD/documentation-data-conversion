@@ -89,10 +89,10 @@
     </comment>
 ```
 
--   [geometry](/out/md/cml/adf_log/geometry-d3e1546)
+-   [geometry](/out/md/cml/adf_log/geometry-d3e1546.md)
 
 <!-- -->
 
--   [symmetry](/out/md/cml/adf_log/symmetry-d3e1880)
+-   [symmetry](/out/md/cml/adf_log/symmetry-d3e1880.md)
 
 
