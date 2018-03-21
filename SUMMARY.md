@@ -354,7 +354,7 @@
       * [eigenvalues](out/md/cml/quantumespresso_log/eigenvalues-d3e33395.md)
       * [qespresso.input](out/md/cml/quantumespresso_log/qespresso.input-d3e37965.md)
 
-* [HTML report content]
+* HTML report content
         
   * [ADF log](out/md/html/adf_log.md)
         
