@@ -1,4 +1,4 @@
-# energies {#energies-d3e32917}
+# energies {#energies-d3e33099}
 
 
 | Type                                                                                                                                                | Status                                                                                                                                              |
@@ -14,7 +14,9 @@
 | id                                                                                                                                                  | energies                                                                                                                                            |
 | name                                                                                                                                                | Energy section                                                                                                                                      |
 | pattern                                                                                                                                             | \\s\*the\\sFermi\\senergy\\sis.\*                                                                                                                   |
+| pattern2                                                                                                                                            | \\s\*!\\s\*total\\senergy.\*                                                                                                                        |
 | endPattern                                                                                                                                          | \\s\*absolute\\smagnetization.\*                                                                                                                    |
+| endPattern2                                                                                                                                         | \\s\*charge\\sdensity\\sinside\\sthe\\sWigner\\-Seitz\\scell.\*                                                                                     |
 | endOffset                                                                                                                                           | 1                                                                                                                                                   |
 | repeat                                                                                                                                              | \*                                                                                                                                                  |
 | xml:base                                                                                                                                            | energies.xml                                                                                                                                        |

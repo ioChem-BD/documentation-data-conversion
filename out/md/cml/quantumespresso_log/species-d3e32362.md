@@ -34,21 +34,20 @@
 
 ```xml
 <comment class="example.output" id="species">
-        <module cmlx:templateRef="species">
-            <list cmlx:templateRef="species">
-                <array dataType="xsd:string" dictRef="qex:specie" size="4">Fe1 Fe2 O H</array>
-                <array dataType="xsd:double" dictRef="x:valelectrons" size="4">16.00 16.00 6.00 1.00</array>
-                <array dataType="xsd:double" dictRef="cc:mass" size="4">55.84500 55.84500 15.99990 1.00790</array>
-                <array dataType="xsd:string" dictRef="cc:elementType" size="4">Fe Fe O H</array>
-                <array dataType="xsd:double" dictRef="qex:pseudopot" size="4">1.00 1.00 1.00 1.00</array>
-            </list>
-         <map id="speciesToAtomTypeMap">
+    <module cmlx:templateRef="species">
+        <list cmlx:templateRef="species">
+            <array dataType="xsd:string" dictRef="qex:specie" size="4">Fe1 Fe2 O H</array>
+            <array dataType="xsd:double" dictRef="x:valelectrons" size="4">16.00 16.00 6.00 1.00</array>
+            <array dataType="xsd:double" dictRef="cc:mass" size="4">55.84500 55.84500 15.99990 1.00790</array>
+            <array dataType="xsd:string" dictRef="cc:elementType" size="4">Fe Fe O H</array>
+            <array dataType="xsd:double" dictRef="qex:pseudopot" size="4">1.00 1.00 1.00 1.00</array>
+        </list>
+        <map id="speciesToAtomTypeMap">
             <link from="Fe1" to="Fe" />
             <link from="Fe2" to="Fe" />
             <link from="O" to="O" />
             <link from="H" to="H" />
-         </map>
-            
-        </module>
+        </map>        
+    </module>
    </comment>
 ```

@@ -1,4 +1,4 @@
-# kpoints {#kpoints-d3e33069}
+# kpoints {#kpoints-d3e33252}
 
 
 | Type                                                                                                                                                | Status                                                                                                                                              |
@@ -18,7 +18,6 @@
 | endPattern2                                                                                                                                         | \\s\*\$\\s\*Dense\\s\*grid.\*                                                                                                                       |
 | endPattern3                                                                                                                                         | \~                                                                                                                                                  |
 | endOffset                                                                                                                                           | 0                                                                                                                                                   |
-| repeat                                                                                                                                              | \*                                                                                                                                                  |
 | xml:base                                                                                                                                            | kpoints.xml                                                                                                                                         |
 
 ######Template attributes

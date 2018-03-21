@@ -1,4 +1,4 @@
-# vasp.kpoints {#vasp.kpoints-d3e37348}
+# vasp.kpoints {#vasp.kpoints-d3e37487}
 
 
 | Type                                                                                                                                                | Status                                                                                                                                              |

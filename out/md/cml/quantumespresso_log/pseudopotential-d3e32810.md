@@ -49,7 +49,8 @@
             <scalar dataType="xsd:string" dictRef="cc:elementType">Fe</scalar>
             <scalar dataType="xsd:string" dictRef="qex:pseudofile">Fe.pbe-sp-van_ak.UPF</scalar>
             <scalar dataType="xsd:string" dictRef="qex:md5sum">874d5528bf087cea5d785f7b6a7bf583</scalar>
-            <scalar dataType="xsd:string" dictRef="qex:pseudopotential">Ultrasoft, Zval = 16.0</scalar>
+            <scalar dataType="xsd:string" dictRef="qex:pseudopotential">Ultrasoft</scalar>
+            <scalar dataType="xsd:double" dictRef="qex:zval">16.0</scalar>
             <scalar dataType="xsd:integer" dictRef="qex:gridpoints">861</scalar>
             <scalar dataType="xsd:integer" dictRef="qex:betafunctions">6</scalar>
             <list cmlx:templateRef="lvalue">
