@@ -1,8 +1,7 @@
 
             
-# Repository conversion templates v1.0
-
-* [Introduction](out/md/introduction.md)        
+# ioChem-BD : Text to CML conversion templates 
+       
 
 * Conversion templates : Text to CML
    * [ADF log](out/md/cml/adf_log.md)
