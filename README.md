@@ -1,10 +1,10 @@
 # How to use this help?
 
-This WebHelp document can be used in a different way depending on your purposes. You're free to navigate it as you like but if you need a rapid access to specific parts of informations that are contained inside this webpage. Here are some useful hints:
+This WebHelp document can be used in a different way depending on your purposes. You're free to navigate it as you like but if you need a rapid access to specific parts of informations, that are contained inside this webpage, here are some useful hints:
 
 -   "I need to know if an specific section of my quantum chemistry software is captured by your repository software"
 
-    First of all you must check whether your format is implemented, so you must first look at webhelp main page under *Legacy to CML* section if your format is listed there. Then you can continue reading this paragraph, otherwise you must contact our development team to code this new calculation
+    First of all you must check whether your format is implemented, so you must first look at webhelp main page under *Conversion templates : Text to CML* section if your format is listed there. Then you can continue reading this paragraph, otherwise you must contact our development team to code this new calculation
     format.
 
     Once we know that our format is captured, the fastest approach in discovering if such section is processed is searching few words from a line of text of such section in WebHelp Search field (on search tab).
