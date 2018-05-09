@@ -1,4 +1,4 @@
-Format conversion examples 
+Conversion test dataset
 =====
 
 ioChem-BD captures the most relevant information derived from computational chemistry software packages and translate it to style-agnostic data formats such as XML, and particularly to CML ([Chemical Markup Language](http://www.xml-cml.org/ "Chemical Markup Language home page")).
