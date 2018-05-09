@@ -6,7 +6,7 @@ Such tagged data format serves as the base platform for querying its content to 
 
 This document collects a number of cases that ioChem-BD can handle. Find below the original input and output files that were uploaded, and the files generated upon processing either as the raw CML file, as the HTML5 file used for data visualisation, or as the JCAMP-DX file for vibrational spectrum representation.
 
-We kindly ask the interested reader to browse the "Conversion Templates Reference" site (Documentation menu) for a detailed description of what and from where data fields are captured, and how the HTML5 file is generated for visualisation. Note that ioChem-BD captures many data fields but for only few of them the HTML5 representation is generated.
+We kindly ask the interested reader to browse the **Conversion Templates: Text to CML** for a detailed description of what and from where data fields are captured, and how the HTML5 file is generated for visualisation. Note that ioChem-BD captures many data fields but for only few of them the HTML5 representation is generated.
 Given the dynamic architecture of iochem-BD, generating new capture templates and/or new representation templates is extremely flexible, so new templates can be written and implemented **at any time without disrupting normal operation**. Contact us for further requests.
 
 
