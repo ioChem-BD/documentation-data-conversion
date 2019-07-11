@@ -2,6 +2,7 @@
 
 ADF log
 
+
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -69,6 +70,7 @@ ADF log
 <comment class="example.output" id="symmetry">
         <module cmlx:templateRef="symmetry">
             <scalar dataType="xsd:string" dictRef="a:symmetry">T(D)</scalar>
+            <scalar dataType="xsd:string" dictRef="a:charge">-4</scalar>
         </module>
     </comment>
 ```

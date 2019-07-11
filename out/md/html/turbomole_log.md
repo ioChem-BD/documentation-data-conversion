@@ -5,8 +5,8 @@
 | Field                                                                                   | Source                                                                                 | Sample value                                                                                                          |
 |----|----|----|
 | Title                                                                                   | *Set on Browse calculation publication*                                                | Sample calculation                                                                                                    |
-| Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://argo.urv.es:8080/jspui/handle/123456789/6                                                                     |
-| Program                                                                                 | [&lt;scalar dictRef="cc:program"&gt;](/out/md/cml/turbomole_log/program-d3e22489.md) template                      | Turbomole 5.3.2                                                                                                       |
+| Browse Item                                                                             | *URL pointing Browse published item*                                                   | https://iochem-bd.iciq.es/browse/handle/100/1722                                                                      |
+| Program                                                                                 | [\<scalar dictRef=\"cc:program\"\>](/out/md/cml/turbomole_log/program-d3e23383.md) template                        | Turbomole 5.3.2                                                                                                       |
 | Author                                                                                  | *Username fullname*                                                                    | Alvarez Moreno, Moises                                                                                                |
 | Formula                                                                                 | *Atom count from final geometry*                                                       | C 6 H 12 Fe 1 N 24                                                                                                    |
 | Calculation type                                                                        | Custom logic                                                                           | Geometry optimization Minimum                                                                                         |
@@ -24,17 +24,17 @@
 
 After header section, our HTML resume will output a xyz coordinates table with current molecule atoms.
 
-Initially its readed from [coord file](/out/md/cml/turbomole_log/turbomole.coord-d3e34404.md)
+Initially its readed from [coord file](/out/md/cml/turbomole_log/turbomole.coord-d3e36704.md)
 
-Then we will read all instances from module [&lt;module cmlx:templateRef="atomcoord"&gt;](/out/md/cml/turbomole_log/atomcoord-d3e22685.md) and use last instance as final geometry
+Then we will read all instances from module [\<module cmlx:templateRef=\"atomcoord\"\>](/out/md/cml/turbomole_log/atomcoord-d3e23579.md) and use last instance as final geometry
 
-For every atom, we will output it's serial number, atom type, coordinates in angstroms, and [basis used](/out/md/cml/turbomole_log/basisset-d3e23317.md).
+For every atom, we will output it\'s serial number, atom type, coordinates in angstroms, and [basis used](/out/md/cml/turbomole_log/basisset-d3e24211.md).
 
 In geometry optimizations calculations, next to geometry section header there will appear the word **(optimized)**, pointing that this geometry is the last one from all optimization steps and has converged.
 
-If the geometry optimization [did not converge](/out/md/cml/turbomole_log/convergence.info-d3e24973.md), there will appear the phrase **(calculation did not converge)**.
+If the geometry optimization [did not converge](/out/md/cml/turbomole_log/convergence.info-d3e25992.md), there will appear the phrase **(calculation did not converge)**.
 
-If there are multiple geometries we'll capture it's last appearance.
+If there are multiple geometries we\'ll capture it\'s last appearance.
 
 ![](/imgs/TURBOMOLE_geometry.png)
 
@@ -42,25 +42,35 @@ If there are multiple geometries we'll capture it's last appearance.
 
 This section captures molecule additional information not captured on previous section.
 
-| Field                                                                                             | Source                                                                                            | Description                                                                                       |
-|----|----|----|
-| Symmetry                                                                                          | Appears in [symmetry module](/out/md/cml/turbomole_log/symmetry-d3e23374.md).                                                 | Symmetry information about the molecule (if it exists)                                            |
-| Multiplicity                                                                                      | Its value is set:                                                                                 |                                                                                                   |
-|                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   Set to 1 on closed shell calculations                                                         |                                                                                                   |
-|                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   On open shell calculations = alpha - beta electrons on occupied orbitals                      |                                                                                                   |
-| Charge                                                                                            | Readed from:                                                                                      |                                                                                                   |
-|                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   [&lt;scalar @dictRef='t:charge'&gt;](/out/md/cml/turbomole_log/electrostatic.moments-d3e24406.md)                         |                                                                                                   |
-|                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   On closed shell calculations = atomic charge - electronic\_charge \* 2 ([Orbital statistics   |                                                                                                   |
-|                                                                                                   |     module](#molecular.orbitals.statistics-d3e24894))                                             |                                                                                                   |
-|                                                                                                   |                                                                                                   |                                                                                                   |
-|                                                                                                   | -   On open shell calculations = atomic charge - (alpha electrons + beta electrons)               |                                                                                                   |
-|                                                                                                   |     ([Unrestricted orbitals control file section](/out/md/cml/turbomole_log/unrestrictedorbitals-d3e34334.md))                |                                                                                                   |
-| Geometry restrictions                                                                             | [&lt;module cmlx:templateRef="restrictions"&gt;](/out/md/cml/turbomole_log/restrictions-d3e34757.md)                          | User defined geometry restrictions                                                                |
-| Solvation                                                                                         | [&lt;module cmlx:templateRef="cosmo"&gt;](/out/md/cml/turbomole_log/cosmo-d3e23819.md)                                        | Solvation parameters                                                                              |
+| Field                                                                                             | Source                                                                                            | Description                                                                                       | S |
+|                                                                                                   |                                                                                                   |                                                                                                   | a |
+|                                                                                                   |                                                                                                   |                                                                                                   | m |
+|                                                                                                   |                                                                                                   |                                                                                                   | p |
+|                                                                                                   |                                                                                                   |                                                                                                   | l |
+|                                                                                                   |                                                                                                   |                                                                                                   | e |
+|                                                                                                   |                                                                                                   |                                                                                                   | v |
+|                                                                                                   |                                                                                                   |                                                                                                   | a |
+|                                                                                                   |                                                                                                   |                                                                                                   | l |
+|                                                                                                   |                                                                                                   |                                                                                                   | u |
+|                                                                                                   |                                                                                                   |                                                                                                   | e |
+|----|----|----|----|
+| Symmetry                                                                                          | Appears in [symmetry module](/out/md/cml/turbomole_log/symmetry-d3e24268.md).                                                 | Symmetry information about the molecule (if it exists)                                            |   |
+| Multiplicity                                                                                      | Its value is set:                                                                                 |                                                                                                   | 1 |
+|                                                                                                   |                                                                                                   |                                                                                                   |   |
+|                                                                                                   | -   Set to 1 on closed shell calculations                                                         |                                                                                                   |   |
+|                                                                                                   |                                                                                                   |                                                                                                   |   |
+|                                                                                                   | -   On open shell calculations = alpha - beta electrons on occupied orbitals                      |                                                                                                   |   |
+| Charge                                                                                            | Readed from:                                                                                      |                                                                                                   | 0 |
+|                                                                                                   |                                                                                                   |                                                                                                   |   |
+|                                                                                                   | -   [\<scalar \@dictRef=\'t:charge\'\>](/out/md/cml/turbomole_log/electrostatic.moments-d3e25300.md)                          |                                                                                                   |   |
+|                                                                                                   |                                                                                                   |                                                                                                   |   |
+|                                                                                                   | -   On closed shell calculations = atomic charge - electronic\_charge \* 2 ([Orbital statistics   |                                                                                                   |   |
+|                                                                                                   |     module](#molecular.orbitals.statistics-d3e25913))                                             |                                                                                                   |   |
+|                                                                                                   |                                                                                                   |                                                                                                   |   |
+|                                                                                                   | -   On open shell calculations = atomic charge - (alpha electrons + beta electrons)               |                                                                                                   |   |
+|                                                                                                   |     ([Unrestricted orbitals control file section](/out/md/cml/turbomole_log/unrestrictedorbitals-d3e36634.md))                |                                                                                                   |   |
+| Geometry restrictions                                                                             | [\<module cmlx:templateRef=\"restrictions\"\>](/out/md/cml/turbomole_log/restrictions-d3e37057.md)                            | User defined geometry restrictions                                                                |   |
+| Solvation                                                                                         | [\<module cmlx:templateRef=\"cosmo\"\>](/out/md/cml/turbomole_log/cosmo-d3e24713.md)                                          | Solvation parameters                                                                              |   |
 
 ######Molecular Info - Main fields
 
@@ -70,9 +80,9 @@ This section captures molecule additional information not captured on previous s
 
 ## Population analysis
 
-Data source: [&lt;module cmlx:templateRef='population.analysis'&gt;](/out/md/cml/turbomole_log/population.analysis-d3e23080.md)
+Data source: [\<module cmlx:templateRef=\'population.analysis\'\>](/out/md/cml/turbomole_log/population.analysis-d3e23974.md)
 
-Data source: [&lt;module cmlx:templateRef='fit.pointcharges'&gt;](/out/md/cml/turbomole_log/fit.pointcharges-d3e25284.md)
+Data source: [\<module cmlx:templateRef=\'fit.pointcharges\'\>](/out/md/cml/turbomole_log/fit.pointcharges-d3e26303.md)
 
 This module will hold Mulliken, Loewdin and Natural population analysis, will also contain (if exists) information from unpaired electrons from D(alpha)-D(beta)
 
@@ -80,7 +90,7 @@ This module will hold Mulliken, Loewdin and Natural population analysis, will al
 
 ## Electrostatic moments
 
-Data source: [&lt;module cmlx:templateRef='electrostatic.moments'&gt;](/out/md/cml/turbomole_log/electrostatic.moments-d3e24406.md)
+Data source: [\<module cmlx:templateRef=\'electrostatic.moments\'\>](/out/md/cml/turbomole_log/electrostatic.moments-d3e25300.md)
 
 This module will display charge, dipole and multipole values.
 
@@ -88,35 +98,35 @@ This module will display charge, dipole and multipole values.
 
 ## Orbital specification
 
-Data source: [&lt;module cmlx:templateRef='orbitals'&gt;](/out/md/cml/turbomole_log/orbitals-d3e23453.md)
+Data source: [\<module cmlx:templateRef=\'orbitals\'\>](/out/md/cml/turbomole_log/orbitals-d3e24347.md)
 
 ![](/imgs/TURBOMOLE_module_orbspecification.png)
 
 ## Final results
 
-Data source: [&lt;module cmlx:templateRef='turbomole.energy'&gt;](/out/md/cml/turbomole_log/turbomole.energy-d3e37358.md) Taken from last line of energy file
+Data source: [\<module cmlx:templateRef=\'turbomole.energy\'\>](/out/md/cml/turbomole_log/turbomole.energy-d3e39658.md) Taken from last line of energy file
 
-Data source: [&lt;module cmlx:templateRef='energy'&gt;](/out/md/cml/turbomole_log/energy-d3e25158.md)
+Data source: [\<module cmlx:templateRef=\'energy\'\>](/out/md/cml/turbomole_log/energy-d3e26177.md)
 
-Data source: [&lt;module cmlx:templateRef='nuclear.repulsion'&gt;](/out/md/cml/turbomole_log/nuclear.repulsion-d3e25124.md)
+Data source: [\<module cmlx:templateRef=\'nuclear.repulsion\'\>](/out/md/cml/turbomole_log/nuclear.repulsion-d3e26143.md)
 
-Data source: [&lt;module cmlx:templateRef='zero.point.energy'&gt;](/out/md/cml/turbomole_log/zero.point.energy-d3e25257.md)
+Data source: [\<module cmlx:templateRef=\'zero.point.energy\'\>](/out/md/cml/turbomole_log/zero.point.energy-d3e26276.md)
 
 ![](/imgs/TURBOMOLE_module_finalresults.png)
 
 ## IR spectrum
 
-Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/turbomole_log/vibrations-d3e33996.md)
+Data source: [\<module cmlx:templateRef=\'vibrations\'\>](/out/md/cml/turbomole_log/vibrations-d3e36296.md)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
-All information will come from "\$vibrational normal modes" and "\$vibrational spectrum" sections inside Turbomole *control* file, in case they are defined on external files such as *vib\_normal\_modes* and *vibspectrum*we must copy them inside *control* file.
+All information will come from \"\$vibrational normal modes\" and \"\$vibrational spectrum\" sections inside Turbomole *control* file, in case they are defined on external files such as *vib\_normal\_modes* and *vibspectrum*we must copy them inside *control* file.
 
 ![](/imgs/TURBOMOLE_module_irspectrum.png)
 
 ## TDDFT/TDHF
 
-Data source: [&lt;module cmlx:templateRef='excitation'&gt;](/out/md/cml/turbomole_log/excitation-d3e23531.md)
+Data source: [\<module cmlx:templateRef=\'excitation\'\>](/out/md/cml/turbomole_log/excitation-d3e24425.md)
 
 ![](/imgs/TURBOMOLE_module_tddft1.png)
 
