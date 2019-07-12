@@ -2,7 +2,6 @@
 
 MOPAC log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |

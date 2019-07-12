@@ -2,7 +2,6 @@
 
 ADF log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -51,7 +50,6 @@ ADF log
 ## atomic.charges {#atomic.charges-d3e2817}
 
 ADF log
-
 
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
@@ -195,7 +193,6 @@ ADF log
 
 ADF log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -296,7 +293,6 @@ ADF log
 ## spin.density {#spin.density-d3e2917}
 
 ADF log
-
 
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|

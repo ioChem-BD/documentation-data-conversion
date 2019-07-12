@@ -18,6 +18,8 @@
 
 [^1]
 
+[^2]
+
 # Molecular Info
 
 This section captures molecule additional information not captured on previous section.
@@ -28,7 +30,7 @@ This section captures molecule additional information not captured on previous s
 |----|----|----|
 | Charge                                                                                            | Readed from input file section of [input.file](/out/md/cml/mopac_log/input.file-d3e35135.md) module                       | 0.000                                                                                             |
 | Multiplicity                                                                                      | Readed from input file section [input.file](/out/md/cml/mopac_log/input.file-d3e35135.md) module with SINGLET, DOUBLE,    | 3                                                                                                 |
-|                                                                                                   | TRIPLET \... keywords.                                                                            |                                                                                                   |
+|                                                                                                   | TRIPLET ... keywords.                                                                             |                                                                                                   |
 
 ######Molecular Info - Main fields
 
@@ -38,7 +40,7 @@ This section captures molecule additional information not captured on previous s
 
 After header section, our HTML resume will output a xyz coordinates table with current molecule atoms.
 
-For every atom, we will output it\'s serial number, atom type, coordinates in angstroms.
+For every atom, we will output it's serial number, atom type, coordinates in angstroms.
 
 Initially its readed from [geometry module](/out/md/cml/mopac_log/geometry-d3e35338.md)
 
@@ -50,13 +52,13 @@ Initially its readed from [geometry module](/out/md/cml/mopac_log/geometry-d3e35
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
-Data source: [\<module cmlx:templateRef=\'vibrations\'\>](/out/md/cml/mopac_log/vibrations-d3e35039.md)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/mopac_log/vibrations-d3e35039.md)
 
 ![](/imgs/ORCA_module_irspectrum.png)
 
 ## Final results - energies
 
-Data source: [\<module cmlx:templateRef=\'energies\'\>](/out/md/cml/mopac_log/energies-d3e35473.md)
+Data source: [&lt;module cmlx:templateRef='energies'&gt;](/out/md/cml/mopac_log/energies-d3e35473.md)
 
 ![](/imgs/MOPAC_module_finalresults.png)
 
@@ -99,6 +101,27 @@ Data source: [\<module cmlx:templateRef=\'energies\'\>](/out/md/cml/mopac_log/en
                 </xsl:if>        
             </xsl:variable>        
             <xsl:value-of select="concat($type, ' ', $type2)"/>        
+                            
+                            
+    ```
+
+[^2]: string\* `mp:getMethods` nodes `inputLines`
+
+    ```xml
+        
+        $inputLines   Input lines from <module cmlx:templateRef="inputlines" >                   
+                      
+        <xsl:variable name="mp:methodsRegex" select="'^(HF|UHF|RHF|PM3|PM6|PM6-D3|PM6-DH\+|PM6-DH2|PM6-DH2X|PM6-D3H4|PM6-D3H4X|PMEP|PM7|PM7-TS|AM1|RM1|MNDO|MNDOD).*'"/>
+        
+        <xsl:for-each select="$inputLines//cml:scalar[@dictRef='mp:inputline']">
+            <xsl:variable name="line" select="./text()"/>        
+            <xsl:for-each select="tokenize($line,'\s+')">
+                <xsl:variable name="command" select="."/>
+                    <xsl:if test="matches(upper-case($command), $mp:methodsRegex)">
+                        <xsl:value-of select="$command"/><xsl:text> </xsl:text>
+                    </xsl:if>
+            </xsl:for-each>
+        </xsl:for-each>
                             
                             
     ```

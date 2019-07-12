@@ -2,7 +2,6 @@
 
 ADF log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -55,7 +54,6 @@ ADF log
 ## molecular.orbitals {#molecular.orbitals-d3e3137}
 
 ADF log
-
 
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|

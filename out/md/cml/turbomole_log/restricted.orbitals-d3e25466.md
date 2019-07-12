@@ -2,7 +2,6 @@
 
 Turbomole log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -66,7 +65,7 @@ Turbomole log
 
 > **Warning**
 >
-> Current template has input comments defined but it\'s output is missing, please notify software developers.
+> Current template has input comments defined but it's output is missing, please notify software developers.
 
 ## orbital.line {#orbital.line-d3e25475}
 

@@ -26,7 +26,7 @@
 
 After header section, our HTML resume will output a xyz coordinates table with current molecule atoms.
 
-For every atom, we will output it\'s serial number, atom type, coordinates in angstroms, basis used and contraction.
+For every atom, we will output it's serial number, atom type, coordinates in angstroms, basis used and contraction.
 
 ![](/imgs/ORCA_geometry.png)
 
@@ -49,33 +49,33 @@ This section captures molecule additional information not captured on previous s
 
 ### Bond distances
 
-Data source (to read molecule and calculate bonds): [\<module cmlx:templateRef=\'input\'\>](/out/md/cml/orca_log/input-d3e17572.md)
+Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='input'&gt;](/out/md/cml/orca_log/input-d3e17572.md)
 
-Data source (to read molecule and calculate bonds): [\<module cmlx:templateRef=\'geometry\'\>](/out/md/cml/orca_log/geometry-d3e19107.md)
+Data source (to read molecule and calculate bonds): [&lt;module cmlx:templateRef='geometry'&gt;](/out/md/cml/orca_log/geometry-d3e19107.md)
 
 ![](/imgs/ORCA_bonddistances.png)
 
 ### Solvation input
 
-Data source: [\<module cmlx:templateRef=\'cosmo\'\>](/out/md/cml/orca_log/cosmo-d3e18741.md)
+Data source: [&lt;module cmlx:templateRef='cosmo'&gt;](/out/md/cml/orca_log/cosmo-d3e18741.md)
 
 ![](/imgs/ORCA_solvationinput.png)
 
 ### Restrictions in the Geometry Optimization
 
-Data source: [\<module cmlx:templateRef=\'optsetup\'\>](/out/md/cml/orca_log/optsetup-d3e23271.md)
+Data source: [&lt;module cmlx:templateRef='optsetup'&gt;](/out/md/cml/orca_log/optsetup-d3e23271.md)
 
 ![](/imgs/ORCA_restrictions.png)
 
 ## Total SCF energy
 
-Data source: [\<module cmlx:templateRef=\'totalenergy\'\>](/out/md/cml/orca_log/totalenergy-d3e21257.md)
+Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e21257.md)
 
-Data source: [\<module cmlx:templateRef=\'mp2\'\>](/out/md/cml/orca_log/mp2-d3e22050.md)
+Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e22050.md)
 
-Data source: [\<module cmlx:templateRef=\'ci\'\>](/out/md/cml/orca_log/ci-d3e22168.md)
+Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e22168.md)
 
-Data source: [\<module cmlx:templateRef=\'d3\'\>](/out/md/cml/orca_log/d3.md)
+Data source: [&lt;module cmlx:templateRef='d3'&gt;](/out/md/cml/orca_log/d3.md)
 
 ![](/imgs/ORCA_module_scfenergy.png)
 
@@ -83,9 +83,9 @@ Data source: [\<module cmlx:templateRef=\'d3\'\>](/out/md/cml/orca_log/d3.md)
 
 This module will display JSpecView + JSmol plugins (using javascript libraries) working together to represent molecule IR spectrum.
 
-Data source: [\<module cmlx:templateRef=\'vibrations\'\>](/out/md/cml/orca_log/vibrations-d3e19390.md)
+Data source: [&lt;module cmlx:templateRef='vibrations'&gt;](/out/md/cml/orca_log/vibrations-d3e19390.md)
 
-Data source: [\<module cmlx:templateRef=\'irspectrum\'\>](/out/md/cml/orca_log/irspectrum-d3e19695.md)
+Data source: [&lt;module cmlx:templateRef='irspectrum'&gt;](/out/md/cml/orca_log/irspectrum-d3e19695.md)
 
 ![](/imgs/ORCA_module_irspectrum.png)
 
@@ -93,9 +93,9 @@ Data source: [\<module cmlx:templateRef=\'irspectrum\'\>](/out/md/cml/orca_log/i
 
 ## Population analysis
 
-Data source [\<module cmlx:templateRef=\'loewdin\'\>](/out/md/cml/orca_log/loewdin-d3e20667.md)
+Data source [&lt;module cmlx:templateRef='loewdin'&gt;](/out/md/cml/orca_log/loewdin-d3e20667.md)
 
-Data source [\<module cmlx:templateRef=\'mullikenpopulation\'\>](/out/md/cml/orca_log/mullikenpopulation-d3e20570.md)
+Data source [&lt;module cmlx:templateRef='mullikenpopulation'&gt;](/out/md/cml/orca_log/mullikenpopulation-d3e20570.md)
 
 ![](/imgs/ORCA_module_popanal1.png)
 
@@ -105,19 +105,19 @@ Data source [\<module cmlx:templateRef=\'mullikenpopulation\'\>](/out/md/cml/orc
 
 Data source: Charge parameter on General settings section of [scfsettings](/out/md/cml/orca_log/scfsettings-d3e21406.md)
 
-Data source: [\<module cmlx:templateRef=\'electricproperties\'\>](/out/md/cml/orca_log/electricproperties-d3e20913.md)
+Data source: [&lt;module cmlx:templateRef='electricproperties'&gt;](/out/md/cml/orca_log/electricproperties-d3e20913.md)
 
 ![](/imgs/ORCA_module_electrostatic.png)
 
 ## Broken symmetry magnetic coupling analysis
 
-Data source: [\<module cmlx:templateRef=\"brokensym\"\>](/out/md/cml/orca_log/brokensym-d3e19287.md)
+Data source: [&lt;module cmlx:templateRef="brokensym"&gt;](/out/md/cml/orca_log/brokensym-d3e19287.md)
 
 ![](/imgs/ORCA_module_brokensymm.png)
 
 ## Frontier orbitals
 
-Data source: [\<module cmlx:templateRef=\'orbitalenergies\'\>](/out/md/cml/orca_log/orbitalenergies-d3e20476.md)
+Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e20476.md)
 
 ![](/imgs/ORCA_module_frontierorb1.png)
 
@@ -125,7 +125,7 @@ Data source: [\<module cmlx:templateRef=\'orbitalenergies\'\>](/out/md/cml/orca_
 
 ## Natural orbitals
 
-Data source: [\<module cmlx:templateRef=\'natural\'\>](/out/md/cml/orca_log/natural-d3e21040.md)
+Data source: [&lt;module cmlx:templateRef='natural'&gt;](/out/md/cml/orca_log/natural-d3e21040.md)
 
 ![](/imgs/)
 
@@ -133,7 +133,7 @@ Data source: [\<module cmlx:templateRef=\'natural\'\>](/out/md/cml/orca_log/natu
 
 Data source:
 
--   [\<module cmlx:templateRef=\"nmr\"\>](/out/md/cml/orca_log/nmr-d3e22355.md)
+-   [&lt;module cmlx:templateRef="nmr"&gt;](/out/md/cml/orca_log/nmr-d3e22355.md)
 
 ![](/imgs/ORCA_module_nmr.png)
 
@@ -141,9 +141,9 @@ Data source:
 
 This section displays an interative chart to visualize root energies and an additional table with most relevant dominant contributions to each root
 
-Data source: [\<module cmlx:templateRef=\'tddft\'\>](/out/md/cml/orca_log/tddft-d3e22474.md)
+Data source: [&lt;module cmlx:templateRef='tddft'&gt;](/out/md/cml/orca_log/tddft-d3e22474.md)
 
-Data source: [\<module cmlx:templateRef=\'orbitalenergies\'\>](/out/md/cml/orca_log/orbitalenergies-d3e20476.md)
+Data source: [&lt;module cmlx:templateRef='orbitalenergies'&gt;](/out/md/cml/orca_log/orbitalenergies-d3e20476.md)
 
 ![](/imgs/ORCA_module_tddft1.png)
 
@@ -151,23 +151,23 @@ Data source: [\<module cmlx:templateRef=\'orbitalenergies\'\>](/out/md/cml/orca_
 
 ## g-matrix and ZFS
 
-Data source: [\<module cmlx:templateRef=\'eprnmr\'\>](/out/md/cml/orca_log/eprnmr-d3e22887.md)
+Data source: [&lt;module cmlx:templateRef='eprnmr'&gt;](/out/md/cml/orca_log/eprnmr-d3e22887.md)
 
 ![](/imgs/ORCA_module_eprnmr.png)
 
 ## Final results
 
-Data source: [\<module cmlx:templateRef=\'totalenergy\'\>](/out/md/cml/orca_log/totalenergy-d3e21257.md)
+Data source: [&lt;module cmlx:templateRef='totalenergy'&gt;](/out/md/cml/orca_log/totalenergy-d3e21257.md)
 
-Data source: [\<module cmlx:templateRef=\'spincontamination\'\>](/out/md/cml/orca_log/spincontamination-d3e22007.md)
+Data source: [&lt;module cmlx:templateRef='spincontamination'&gt;](/out/md/cml/orca_log/spincontamination-d3e22007.md)
 
-Data source: [\<module cmlx:templateRef=\'innerenergy\'\>](/out/md/cml/orca_log/innerenergy-d3e19548.md)
+Data source: [&lt;module cmlx:templateRef='innerenergy'&gt;](/out/md/cml/orca_log/innerenergy-d3e19548.md)
 
-Data source: [\<module cmlx:templateRef=\'mp2\'\>](/out/md/cml/orca_log/mp2-d3e22050.md)
+Data source: [&lt;module cmlx:templateRef='mp2'&gt;](/out/md/cml/orca_log/mp2-d3e22050.md)
 
-Data source: [\<module cmlx:templateRef=\'ci\'\>](/out/md/cml/orca_log/ci-d3e22168.md)
+Data source: [&lt;module cmlx:templateRef='ci'&gt;](/out/md/cml/orca_log/ci-d3e22168.md)
 
-Data source: [\<module cmlx:templateRef=\'dftd3\'\>](/out/md/cml/orca_log/dftd3-d3e22856.md)
+Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd3-d3e22856.md)
 
 ![](/imgs/ORCA_module_finalresults1.png)
 

@@ -52,4 +52,4 @@
 
 > **Warning**
 >
-> Current template has input comments defined but it\'s output is missing, please notify software developers.
+> Current template has input comments defined but it's output is missing, please notify software developers.

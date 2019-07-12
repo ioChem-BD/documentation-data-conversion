@@ -2,7 +2,6 @@
 
 Gaussian log
 
-
 | Type                                                                                                                                                | Status                                                                                                                                              |
 |----|----|
 | CML extraction template                                                                                                                             | ![](/imgs/Total.png)                                                                                                                                |
@@ -80,3 +79,5 @@ Gaussian log
 ```
 
 -   [l601.mullikenspin](/out/md/cml/gaussian_log/l601.mullikenspin-d3e9226.md)
+
+
