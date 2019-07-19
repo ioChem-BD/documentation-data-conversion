@@ -122,13 +122,13 @@ Data source [&lt;module cmlx:templateRef='eigenvalues'&gt;](/out/md/cml/quantume
 
 ## Projects wavefunctions onto orthogonalized atomic wavefunctions
 
-Data source: [&lt;module cmlx:templateRef='projwfc'&gt;](/out/md/cml/quantumespresso_log/projwfc.md)
+Data source: [&lt;module cmlx:templateRef='projwfc'&gt;](/out/md/cml/quantumespresso_log/projwfc-d3e34628.md)
 
 ![](/imgs/QUANTUMESPRESSO_module_projwfc.png)
 
 ## Frequencies
 
-Data source: [&lt;module cmlx:templateRef='frequencies'&gt;](/out/md/cml/quantumespresso_log/frequencies.md)
+Data source: [&lt;module cmlx:templateRef='frequencies'&gt;](/out/md/cml/quantumespresso_log/frequencies-d3e34849.md)
 
 ![](/imgs/QUANTUMESPRESSO_module_frequencies.png)
 
