@@ -134,7 +134,7 @@ Data source: [&lt;module cmlx:templateRef='frequencies'&gt;](/out/md/cml/quantum
 
 [^1]: string `qex:getCalcType` string `modName` string `calculation`
 
-    ```xml
+```xml
                                 
         $modName  Name of the module <module cmlx:templateRef="header" >
         $calculation   Calculation type defined on <module cmlx:templateRef="qespresso.input" > , CONTROL section. 
@@ -186,9 +186,10 @@ Data source: [&lt;module cmlx:templateRef='frequencies'&gt;](/out/md/cml/quantum
             </xsl:choose>
                             
                             
-    ```
+```
 
-[^2]: ```xml
+[^2]: 
+```xml
                                 
         $functionals  <module cmlx:templateRef="header" >
         $calculation   Calculation type defined on <module cmlx:templateRef="qespresso.input" > , CONTROL section. 
@@ -196,4 +197,4 @@ Data source: [&lt;module cmlx:templateRef='frequencies'&gt;](/out/md/cml/quantum
 
                             
                             
-    ```
+```

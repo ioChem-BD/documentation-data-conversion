@@ -175,7 +175,7 @@ Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd
 
 [^1]: string `orca:getCalcType` boolean `isOptimization` boolean `isBrokenSymm` boolean `hasVibrations` integer `negativeFrequenciesCount`
 
-    ```xml
+```xml
         $isOptimization        Refers to function orca:isOptimization($commands), which searches optimitzation keywords from <module cmlx:templateRef="input" > module  
         $isBrokenSymm          Refers to function orca:isBrokenSymm($commands)  which searches BrokenSymm keyword from <module cmlx:templateRef="input" > module
         $hasVibrations         Exists module <module cmlx:templateRef="vibrations" > ?
@@ -225,11 +225,11 @@ Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd
         <xsl:value-of select="concat($type, ' ', $type2)"/>                              
                             
                             
-    ```
+```
 
 [^2]: string `orca:getMehods` nodeset `section` boolean `isTddft`
 
-    ```xml
+```xml
      
             $section    Input section elements from <module cmlx:templateRef="input"> module  
             $isTddft    Refers to function orca:isTddft($commands) which searches tddft keywords from <module cmlx:templateRef="input" > module                           
@@ -266,4 +266,4 @@ Data source: [&lt;module cmlx:templateRef='dftd3'&gt;](/out/md/cml/orca_log/dftd
             </xsl:for-each>
                                 
                             
-    ```
+```

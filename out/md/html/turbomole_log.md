@@ -122,7 +122,7 @@ Data source: [&lt;module cmlx:templateRef='excitation'&gt;](/out/md/cml/turbomol
 
 [^1]: string `turbo:getCalcType` boolean `isRestrictedOptimization` boolean `isOptimization` boolean `isIncomplete` nodeset `vibrations` nodeset `statpt` nodeset `soes`
 
-    ```xml
+```xml
         $isRestrictedOptimization       Exists module <module cmlx:templateRef="restrictions" > ?
         $isOptimization                 Exists module <module cmlx:templateRef="convergence.info" > ?
         $isIncomplete                   Last module <module cmlx:templateRef="convergence.info" > has a "NO" on converged fields?   
@@ -176,11 +176,11 @@ Data source: [&lt;module cmlx:templateRef='excitation'&gt;](/out/md/cml/turbomol
             <xsl:sequence select="concat($calcType, ' ', $vibration, ' ', $isExcitedState)"/>
          
                             
-    ```
+```
 
 [^2]: string `turbo:getMehod` nodeset `soes` nodeset `methodScalar`
 
-    ```xml
+```xml
      
             $soes           soes parameters section readed from control file <module cmlx:templateRef="soes">  
             $methodScalar   methods readed from control file ($dft|$uhf)   <module cmlx:templateRef="methods">
@@ -241,4 +241,4 @@ Data source: [&lt;module cmlx:templateRef='excitation'&gt;](/out/md/cml/turbomol
             </xsl:choose>       
                                 
                             
-    ```
+```

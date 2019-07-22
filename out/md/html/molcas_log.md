@@ -198,7 +198,7 @@ Data source: [&lt;module cmlx:templateRef='dynamic.loprop'&gt;](/out/md/cml/molc
 
 [^1]: string `molcas:getCalcType` boolean `isRestrictedOpt` boolean `isOptimization` boolean `isTS` boolean `isIncomplete`
 
-    ```xml
+```xml
                                 
         $isRestrictedOpt  Exists module <module cmlx:templateRef="constraint" > ?
         $isOptimization   Input file from <module cmlx:templateRef="molcas.input" > is setup to perform a geometry optimization? 
@@ -231,11 +231,11 @@ Data source: [&lt;module cmlx:templateRef='dynamic.loprop'&gt;](/out/md/cml/molc
         </xsl:if>                           
                             
                             
-    ```
+```
 
 [^2]: string `molcas:getMethods` node\* `modules` node `ksdft` node `wavespecs`
 
-    ```xml
+```xml
                                 
         $modules    Array with all executed module names 
         $ksdft      Module from <module cmlx:templateRef="scf-ksdft" > 
@@ -304,4 +304,4 @@ Data source: [&lt;module cmlx:templateRef='dynamic.loprop'&gt;](/out/md/cml/molc
             </xsl:for-each>              
                             
                             
-    ```
+```

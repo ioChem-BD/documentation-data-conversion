@@ -182,7 +182,7 @@ Data source: [&lt;module cmlx:templateRef='input.file'&gt;](/out/md/cml/adf_log/
 
 [^1]: string `adf:getCalcType` string `runtype` boolean `hasVibrations` boolean `isMininum` boolean `isQuild` boolean `isNMR`
 
-    ```xml
+```xml
                                 
         $runtype        Refers to <scalar dataType="xsd:string" dictRef="cc:runtype">
         $hasVibrations  Exists module <module cmlx:templateRef="vibrations" > ?
@@ -242,4 +242,4 @@ Data source: [&lt;module cmlx:templateRef='input.file'&gt;](/out/md/cml/adf_log/
         <xsl:sequence select="concat($calcType, $vibrations, $quild, $nmr)"/>                              
                             
                             
-    ```
+```
