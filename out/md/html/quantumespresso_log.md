@@ -66,7 +66,7 @@ Most relevant calculation input parameters. All information fields come from [&l
 
 After settings section, our HTML resume will output cell coordinates, lattice vectors and a coordinates table with molecule atoms.
 
-Geometry is readed from input file using :[&lt;list cmlx:templateRef="atoms"&gt;](/out/md/cml/quantumespresso_log/qespresso.input-d3e40265.md), [&lt;list cmlx:templateRef="species"&gt;](/out/md/cml/quantumespresso_log/qespresso.input-d3e40265.md), [&lt;module cmlx:templateRef="lattice"&gt;](#lattice-d3e33441) and [&lt;module cmlx:templateRef="axes"&gt;](/out/md/cml/quantumespresso_log/axes-d3e33547.md) for geometry optimizations.
+Geometry is readed from input file using :[&lt;list cmlx:templateRef="atoms"&gt;](/out/md/cml/quantumespresso_log/qespresso.input-d3e40265.md), [&lt;list cmlx:templateRef="species"&gt;](/out/md/cml/quantumespresso_log/qespresso.input-d3e40265.md), [&lt;module cmlx:templateRef="lattice"&gt;](/out/md/cml/quantumespresso_log/lattice-d3e33441.md) and [&lt;module cmlx:templateRef="axes"&gt;](/out/md/cml/quantumespresso_log/axes-d3e33547.md) for geometry optimizations.
 
 For every atom, we will output it's serial number, atom type, cartesian and fractional coordinates (in angstroms) , and [&lt;list cmlx:templateRef="species"&gt;](/out/md/cml/quantumespresso_log/qespresso.input-d3e40265.md).
 

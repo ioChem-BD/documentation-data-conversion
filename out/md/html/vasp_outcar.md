@@ -58,7 +58,7 @@ Most relevant calculation input parameters. Almost all information fields come f
 
 After settings section, our HTML resume will output cell coordinates, lattice vectors and a coordinates table with molecule atoms.
 
-Initial geometry its readed from OUTCAR file using :[&lt;module cmlx:templateRef="position"&gt;](#position-d3e27346), [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e26599.md), [&lt;module cmlx:templateRef="potcar"&gt;](#potcar-d3e27169) and [&lt;module cmlx:templateRef="laticce"&gt;](/out/md/cml/vasp_outcar/lattice-d3e27256.md)
+Initial geometry its readed from OUTCAR file using :[&lt;module cmlx:templateRef="position"&gt;](/out/md/cml/vasp_outcar/position-d3e27346.md), [&lt;module cmlx:templateRef="incar"&gt;](/out/md/cml/vasp_outcar/incar-d3e26599.md), [&lt;module cmlx:templateRef="potcar"&gt;](/out/md/cml/vasp_outcar/potcar-d3e27169.md) and [&lt;module cmlx:templateRef="laticce"&gt;](/out/md/cml/vasp_outcar/lattice-d3e27256.md)
 
 Final geometry will be generated using the same modules than Initial geometry, but coordinates will come from last instance of [&lt;module cmlx:templateRef="calculated.position"&gt;](/out/md/cml/vasp_outcar/calculated.position-d3e27483.md)
 
