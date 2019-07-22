@@ -5,7 +5,7 @@
 * [Introduction](out/md/introduction.md)
 * [Conversion templates](out/md/conversion.md)
 	* [ADF log](out/md/cml/adf_log.md)
-				* [nmr](out/md/cml/adf_log/nmr-d3e19.md)
+		* [nmr](out/md/cml/adf_log/nmr-d3e19.md)
 			* [program.header](out/md/cml/adf_log/program.header-d3e26.md)
 			* [nuclear.coordinates](out/md/cml/adf_log/nuclear.coordinates-d3e145.md)
 			* [nucleus](out/md/cml/adf_log/nucleus-d3e568.md)
