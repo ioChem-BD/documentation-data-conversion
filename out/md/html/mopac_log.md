@@ -63,7 +63,7 @@ Data source: [&lt;module cmlx:templateRef='energies'&gt;](/out/md/cml/mopac_log/
 
 [^1]: string `molcas:getCalcType` boolean `isRestrictedOpt` boolean `isOptimization` boolean `isTS` boolean `isIncomplete`
 
-```xml
+    ```xml
         
         $isOptimization   Exists module <module cmlx:templateRef="optimization" > ?
         $hasVibrations    Exists module <module cmlx:templateRef="vibrations" > ?
@@ -102,11 +102,11 @@ Data source: [&lt;module cmlx:templateRef='energies'&gt;](/out/md/cml/mopac_log/
             <xsl:value-of select="concat($type, ' ', $type2)"/>        
                             
                             
-```
+    ```
 
 [^2]: string\* `mp:getMethods` nodes `inputLines`
 
-```xml
+    ```xml
         
         $inputLines   Input lines from <module cmlx:templateRef="inputlines" >                   
                       
@@ -123,4 +123,4 @@ Data source: [&lt;module cmlx:templateRef='energies'&gt;](/out/md/cml/mopac_log/
         </xsl:for-each>
                             
                             
-```
+    ```

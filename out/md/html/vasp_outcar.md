@@ -128,7 +128,7 @@ Lattice replication
 
 [^1]: string `vasp:getCalcType` nodeset `ibrion`
 
-```xml
+    ```xml
         ibrion                   Value of ibrion parameter on <module cmlx:templateRef="convergence.info" >.       
                    
             <xsl:param name="ibrion"/>
@@ -148,11 +148,11 @@ Lattice replication
                 </xsl:choose>
          
                             
-```
+    ```
 
 [^2]: string `turbo:getMehod` string `gga` boolean `lhfcalc` number `hfscreen` number `aggac` boolean `luseVdw` number `zabVdw` number `param1`&gt; number `param2` boolean `ldau`
 
-```xml
+    ```xml
      
             gga, lhfcalc, hfscreen , ...           parameters readed from OUTCAR file <module cmlx:templateRef="incar">                                      
                                 
@@ -195,4 +195,4 @@ Lattice replication
              </xsl:if>         
                                 
                             
-```
+    ```

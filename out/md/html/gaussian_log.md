@@ -123,7 +123,7 @@ Data source: [&lt;module cmlx:templateRef="multipole"&gt;](/out/md/cml/gaussian_
 
 [^1]: string `gaussian:getCalcType` boolean `isOptimization` boolean `hasStationaryPoint` boolean `hasMinimum`
 
-```xml
+    ```xml
                                     
         $isOptimization       Exists module <module cmlx:templateRef="l103" > ?
         $hasStationaryPoiny   'Stationary point found' appears in <module cmlx:templateRef="l103.optimizedparam" > ?
@@ -143,4 +143,4 @@ Data source: [&lt;module cmlx:templateRef="multipole"&gt;](/out/md/cml/gaussian_
             </xsl:choose>                          
          
                             
-```
+    ```
